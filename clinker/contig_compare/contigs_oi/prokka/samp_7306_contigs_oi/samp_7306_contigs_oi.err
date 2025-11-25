@@ -1,0 +1,235 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:34 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 34 present
+DISC_COUNT_NUCLEOTIDES:2 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:34 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:2 comment descriptors were found (all same)
+MISSING_GENOMEASSEMBLY_COMMENTS:2 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:2 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:2 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:2 sequences do not include structured comments.
+MISSING_PROJECT:36 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::34 proteins have invalid IDs.
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330_1 (length 71)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330_2 (length 271)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330_3 (length 352)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330_4 (length 94)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330_5 (length 322)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330_6 (length 1243)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330_7 (length 79)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_1 (length 109)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_2 (length 200)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_3 (length 120)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_4 (length 191)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_5 (length 58)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_6 (length 529)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_7 (length 92)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_8 (length 258)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_9 (length 258)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_10 (length 248)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_11 (length 266)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_12 (length 334)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_13 (length 248)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_14 (length 507)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_15 (length 559)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_16 (length 108)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_17 (length 257)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_18 (length 270)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_19 (length 503)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_20 (length 202)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_21 (length 146)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_22 (length 302)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_23 (length 398)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_24 (length 356)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_25 (length 513)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_26 (length 334)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_27 (length 377)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::2 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::2 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 34 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::2 nucleotide Bioseqs are present
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330 (length 9277)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184 (length 28215)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::34 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_1433330:116-331	LDNJMDMM_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_1433330:992-1807	LDNJMDMM_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_1433330:c3045-1987	LDNJMDMM_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_1433330:c3648-3364	LDNJMDMM_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	Cytidine deaminase	samp_7306_1433330:c4703-3735	LDNJMDMM_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	8-amino-7-oxononanoate synthase	samp_7306_1433330:c8831-5100	LDNJMDMM_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_1433330:c9169-8930	LDNJMDMM_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_2314184:c530-201	LDNJMDMM_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_2314184:c1125-523	LDNJMDMM_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_2314184:2061-2423	LDNJMDMM_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_2314184:c3147-2572	LDNJMDMM_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_2314184:c3330-3154	LDNJMDMM_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_2314184:3715-5304	LDNJMDMM_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_2314184:c5715-5437	LDNJMDMM_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_2314184:6119-6895	LDNJMDMM_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_2314184:6906-7682	LDNJMDMM_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_2314184:7658-8404	LDNJMDMM_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_2314184:8639-9439	LDNJMDMM_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	Methylxanthine N3-demethylase NdmB	samp_7306_2314184:9527-10531	LDNJMDMM_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	putative oxidoreductase	samp_7306_2314184:10677-11423	LDNJMDMM_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_2314184:11853-13376	LDNJMDMM_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	L-aspartate oxidase	samp_7306_2314184:13574-15253	LDNJMDMM_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	Choline trimethylamine-lyase activating enzyme	samp_7306_2314184:15267-15593	LDNJMDMM_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_2314184:15757-16530	LDNJMDMM_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_2314184:c17434-16622	LDNJMDMM_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	Multidrug resistance protein NorM	samp_7306_2314184:c19398-17887	LDNJMDMM_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	putative methylxanthine N7-demethylase NdmC	samp_7306_2314184:c20080-19472	LDNJMDMM_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	Carnitine monooxygenase oxygenase subunit	samp_7306_2314184:c20475-20035	LDNJMDMM_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	hypothetical protein	samp_7306_2314184:c21611-20703	LDNJMDMM_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	O-acetyltransferase OatA	samp_7306_2314184:c23057-21861	LDNJMDMM_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	Decarbamoylnovobiocin carbamoyltransferase	samp_7306_2314184:c24184-23114	LDNJMDMM_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	Multidrug resistance protein NorM	samp_7306_2314184:c25713-24172	LDNJMDMM_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	Methylxanthine N3-demethylase NdmB	samp_7306_2314184:c26678-25674	LDNJMDMM_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:CDS	Inosamine-phosphate amidinotransferase 1	samp_7306_2314184:c27871-26738	LDNJMDMM_00034
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::2 comment descriptors were found (all same)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::2 bioseqs are missing GenomeAssembly structured comments
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330 (length 9277)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184 (length 28215)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::2 molecule types are not set as mRNA.
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330 (length 9277)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184 (length 28215)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::2 technique are not set as TSA
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330 (length 9277)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184 (length 28215)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::2 sequences do not include structured comments.
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330 (length 9277)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184 (length 28215)
+
+DiscRep_ALL:MISSING_PROJECT::36 sequences do not include project.
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330 (length 9277)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330_1 (length 71)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330_2 (length 271)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330_3 (length 352)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330_4 (length 94)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330_5 (length 322)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330_6 (length 1243)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330_7 (length 79)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184 (length 28215)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_1 (length 109)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_2 (length 200)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_3 (length 120)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_4 (length 191)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_5 (length 58)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_6 (length 529)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_7 (length 92)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_8 (length 258)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_9 (length 258)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_10 (length 248)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_11 (length 266)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_12 (length 334)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_13 (length 248)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_14 (length 507)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_15 (length 559)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_16 (length 108)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_17 (length 257)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_18 (length 270)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_19 (length 503)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_20 (length 202)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_21 (length 146)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_22 (length 302)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_23 (length 398)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_24 (length 356)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_25 (length 513)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_26 (length 334)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184_27 (length 377)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::2 Molinfos are missing field technique
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_1433330 (length 9277)
+clinker/contig_compare/contigs_oi/prokka/samp_7306_contigs_oi/samp_7306_contigs_oi:samp_7306_2314184 (length 28215)
+

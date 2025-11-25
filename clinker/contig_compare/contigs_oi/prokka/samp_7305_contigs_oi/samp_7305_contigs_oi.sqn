@@ -1,0 +1,451 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 11 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 18 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2025 } } } ,
+        create-date
+          std {
+            year 2025 ,
+            month 11 ,
+            day 18 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "samp_7305_637441" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 764 ,
+            seq-data
+              iupacna "TTCGCATATTTCGACAACGACTAAGGGGATTGCCAATTGTAGGCTAACTCGTGCT
+TCTGATATAAGCTCTGACTTATATCCTGTTGATGTTATTTCTGCTAATCCGCTTTGGGTATTTGTCATATCTCAGCTT
+TAGAATTAGTACTATGTGTCTTACTTTTTTCGCGCCTATTCAATACACTCAATGCAACTGAAATTAACAAACACCATA
+AGTAACGCCCAGTTCCTTTAGCCATCGACGATAGGCAACTGTACATCGATCTGATGGCACATGTATTTCCTGTGGCAA
+CCCTTGCGTGTTTATCTGCTTTGGGGATAACAGTGGTAAACGCGTTGGCTGTTGGGAATGTAGGATCCGAATATCTTC
+TTCTATTACTTGGTCATAATCGGCTAGTATCTTGGACTCTAACGTTTTAGAACCGTTCCACATTATCAAATAACGCAA
+CACGCTGTTGTCTTCATCAATCGGTGTTACCACCATTAAATCCACCGTCCGCATTTCAGAAGCTTCCGTACTACAGTA
+TTGACATAAAGGATGACTAAGCCTGAACCAATTAACCATTGAGTCATCTTTAGTACTATTGTTGAACTTTGATGTATG
+TACTTGATACTTACCCATGGTAAGACCATCTTTGTCTACTTTCACCTCAAGGTCTTCAACTTCTGCATGATTGCGATC
+GCCTAAGATCCCCTCGTGGATAAAAGGAAAATGAGCTACATCTAAGGAATTATCCATCACACGAAACGGACTAACTTT
+AATCAAG" } } ,
+        seq {
+          id {
+            local
+              str "samp_7305_637441_1" } ,
+          descr {
+            title "putative methylxanthine N7-demethylase NdmC [Genus
+ species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 179 ,
+            seq-data
+              ncbieaa "MDNSLDVAHFPFIHEGILGDRNHAEVEDLEVKVDKDGLTMGKYQVHTSKFNNSTK
+DDSMVNWFRLSHPLCQYCSTEASEMRTVDLMVVTPIDEDNSVLRYLIMWNGSKTLESKILADYDQVIEEDIRILHSQQ
+PTRLPLLSPKQINTQGLPQEIHVPSDRCTVAYRRWLKELGVTYGVC" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 2 ,
+                    data
+                      prot {
+                        name {
+                          "putative methylxanthine N7-demethylase NdmC" } ,
+                        ec {
+                          "1.14.13.128" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 178 ,
+                        id
+                          local
+                            str "samp_7305_637441_1" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "samp_7305_637441_1" ,
+                location
+                  int {
+                    from 196 ,
+                    to 735 ,
+                    strand minus ,
+                    id
+                      local
+                        str "samp_7305_637441" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:F0E1K6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "OLLKPBJB_00001" } } } } } } } } ,
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 11 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 18 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2025 } } } ,
+        create-date
+          std {
+            year 2025 ,
+            month 11 ,
+            day 18 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "samp_7305_1519975" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 700 ,
+            seq-data
+              iupacna "CGTTCCCCGAATGGGACGATCCGAATTATCACAAGACTTGTACTAGGTCGTACTT
+GATTAAATCTAGTCCGTTTCGTGTGATGGATAATTTCATAGATATATCTCATTTTCCTTTTGTCCACGACGGCGGGTT
+AGGCGATGGCAACTACGCAGAAATTGAAGACTTTGAGGTAAAAGTAGACAAAGATGGCATTACCATAGGTAACCTTCA
+ACTCCAGATGCCAAGGTTCAACAGCAGTATCAAAGATGACTCATGGACTCTTTGGCAAAGGATGAGTCATCCTTTATG
+TCAATACTACATTACGGAATCCTCTGAAATTCGGACGGCGGATTTGATGCTGGTAACACCGATTGATGAAGACAACAG
+CTTAGTGCGGATGTTGGTAACGTGGAACTGCCCTGAAATCTTGGAGTCAACGCTACTAGCCGAATTTGACGAAACAAT
+AGAACAAGATATTCCGATCCTACATTCCCAACAGCCAACGCGTTTACCACTGTTATCCCCAAAGCAGATAAACACGCA
+AGGGTTGCCACAGGAAATACATGTCCCATCAGATCGATGCACAGTTGCCTATCGTCGATGGCTAAAGGAACTAGGCGT
+TACTTATGGTGTTTGTTAATTTCAGTTGCATTGAGTGTATTAAATAGGCGCAAGATAGGAGATATGACAAATACCCAA
+AGAGGATTAGCAGAAATAACA" } } ,
+        seq {
+          id {
+            local
+              str "samp_7305_1519975_1" } ,
+          descr {
+            title "putative methylxanthine N7-demethylase NdmC [Genus
+ species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 188 ,
+            seq-data
+              ncbieaa "MIKSSPFRVMDNFIDISHFPFVHDGGLGDGNYAEIEDFEVKVDKDGITIGNLQLQ
+MPRFNSSIKDDSWTLWQRMSHPLCQYYITESSEIRTADLMLVTPIDEDNSLVRMLVTWNCPEILESTLLAEFDETIEQ
+DIPILHSQQPTRLPLLSPKQINTQGLPQEIHVPSDRCTVAYRRWLKELGVTYGVC" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 4 ,
+                    data
+                      prot {
+                        name {
+                          "putative methylxanthine N7-demethylase NdmC" } ,
+                        ec {
+                          "1.14.13.128" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 187 ,
+                        id
+                          local
+                            str "samp_7305_1519975_1" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "samp_7305_1519975_1" ,
+                location
+                  int {
+                    from 53 ,
+                    to 619 ,
+                    strand plus ,
+                    id
+                      local
+                        str "samp_7305_1519975" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:F0E1K6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "OLLKPBJB_00002" } } } } } } } } ,
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 11 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 18 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2025 } } } ,
+        create-date
+          std {
+            year 2025 ,
+            month 11 ,
+            day 18 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "samp_7305_5792258" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 1131 ,
+            seq-data
+              iupacna "GCGCAGTTATGAACAGAATTCACCCATACAGGTATGGCAAGACTACTGCCCCCAC
+CGAGGTGTTCCTCTGTCGATGGGAGAAATTGCGAATAATACTTTGGTTTGTCCGTATCACGGATGGAGATACAATGAA
+GCTGGTAAATGCGTAAAGATCCCGGCTCACCCTGACATGGTACCCCCAGCAAGTGCCCAAGCCAAAACCTATCATTGC
+CAGGAACGCTACGGCTTAGTGTGGGTGTGCTTAGGGGACCCTGTTAATGATATACCTTCGTTCCCCGAATGGAACGAT
+CCGAATTATCACAAGACTTATACGAAGTCGTACTTGATTCAAGCTAGTCCGTTTCGTGTGATGGATAATTCCATAGAT
+GTATCTCATTTTCCTTTTATCCATGACGGTTGGTTAGGCGATCGCAATTATACAAAAGTGGAAGACTTTGAGGTGAAA
+GTAGATAAAGATGGTCTTACTATGGGTAAGTATCAATTCCAGACATCAAGGATTGTCAGCCATATCGAAGATGACTCA
+TGGGTTAATTGGTTCAGGCTTAGTCATCCTTTATGTCAATACTGCGTTTCAGAATCCCCTGAAATGCGGATCGTGGAT
+TTGATGACGATCGCACCGATTGATGAAGACAACAGCGTATTGCGGATGTTGATAATGTGGAACGGATCTGAAATGTTA
+GAGTCAAAGATGCTAACCGAATATGACGAAACAATAGAACAAGATATTCGGATCTTACATTCTCAACAGCCAGCGCGT
+TTACCACTGTTAGCCCCAAAGCAGATAAACACGCAAGGGTTGCCACAGGAAATACATGTGCCATCAGATCGAGGCACA
+GTTGCCTATCGTCGATGGCTAAAAGAACTAGGTGTCACTTATGGTGTTTGTTAACTTCAGTTGAATGGCACTAAGAAA
+ACCCAAAGTGCTTACAAAATAAGCACTTCAAGCTTTTGTATATAAAAATTACAAAAAAAAATCAAGTACAAAACGCAC
+TTGTTACATATCGCACGAGCAAAACGAAAAGAAGGAGTGACTGATGGCAGGTAAATTGGATGGAAAAGTAGCGATTAT
+TACTGGTGCTTCCTCTGGTATTGGAGAGGCTACAGCATTTGCCTTAGCTGCGGAGGGGGCAA" } } ,
+        seq {
+          id {
+            local
+              str "samp_7305_5792258_1" } ,
+          descr {
+            title "Methylxanthine N1-demethylase NdmA [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 271 ,
+            seq-data
+              ncbieaa "MGEIANNTLVCPYHGWRYNEAGKCVKIPAHPDMVPPASAQAKTYHCQERYGLVWV
+CLGDPVNDIPSFPEWNDPNYHKTYTKSYLIQASPFRVMDNSIDVSHFPFIHDGWLGDRNYTKVEDFEVKVDKDGLTMG
+KYQFQTSRIVSHIEDDSWVNWFRLSHPLCQYCVSESPEMRIVDLMTIAPIDEDNSVLRMLIMWNGSEMLESKMLTEYD
+ETIEQDIRILHSQQPARLPLLAPKQINTQGLPQEIHVPSDRGTVAYRRWLKELGVTYGVC" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 6 ,
+                    data
+                      prot {
+                        name {
+                          "Methylxanthine N1-demethylase NdmA" } ,
+                        ec {
+                          "1.14.13.178" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 270 ,
+                        id
+                          local
+                            str "samp_7305_5792258_1" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "samp_7305_5792258_1" ,
+                location
+                  int {
+                    from 73 ,
+                    to 888 ,
+                    strand plus ,
+                    id
+                      local
+                        str "samp_7305_5792258" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:H9N289" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "ndmA" ,
+                        locus-tag "OLLKPBJB_00003" } } } } } } } } } }

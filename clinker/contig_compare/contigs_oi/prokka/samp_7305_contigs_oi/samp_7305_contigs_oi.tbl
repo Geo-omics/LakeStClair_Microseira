@@ -1,0 +1,22 @@
+>Feature samp_7305_637441
+736	197	CDS
+			EC_number	1.14.13.128
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:F0E1K6
+			locus_tag	OLLKPBJB_00001
+			product	putative methylxanthine N7-demethylase NdmC
+>Feature samp_7305_1519975
+54	620	CDS
+			EC_number	1.14.13.128
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:F0E1K6
+			locus_tag	OLLKPBJB_00002
+			product	putative methylxanthine N7-demethylase NdmC
+>Feature samp_7305_5792258
+74	889	CDS
+			EC_number	1.14.13.178
+			gene	ndmA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:H9N289
+			locus_tag	OLLKPBJB_00003
+			product	Methylxanthine N1-demethylase NdmA

@@ -1,0 +1,60 @@
+>Feature samp_7308_2401880
+>Feature samp_7308_3236758
+>Feature samp_7308_4255520
+12	290	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	AFIDOGJE_00001
+			product	hypothetical protein
+2141	1008	CDS
+			EC_number	2.1.4.2
+			db_xref	COG:COG1834
+			gene	strB1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P08078
+			locus_tag	AFIDOGJE_00002
+			product	Inosamine-phosphate amidinotransferase 1
+3663	2227	CDS
+			db_xref	COG:COG0534
+			gene	norM
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O82855
+			locus_tag	AFIDOGJE_00003
+			product	Multidrug resistance protein NorM
+4388	5203	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	AFIDOGJE_00004
+			product	hypothetical protein
+6441	5383	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	AFIDOGJE_00005
+			product	hypothetical protein
+7044	6760	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	AFIDOGJE_00006
+			product	hypothetical protein
+8099	7131	CDS
+			EC_number	3.5.4.5
+			db_xref	COG:COG0295
+			gene	cdd
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9KSM5
+			locus_tag	AFIDOGJE_00007
+			product	Cytidine deaminase
+9617	8496	CDS
+			EC_number	2.3.1.29
+			db_xref	COG:COG0156
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q5SHZ8
+			locus_tag	AFIDOGJE_00008
+			product	8-amino-7-oxononanoate synthase/2-amino-3-ketobutyrate coenzyme A ligase
+12226	9770	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	AFIDOGJE_00009
+			product	hypothetical protein
+>Feature samp_7308_4410053
+778	119	CDS
+			EC_number	1.14.13.128
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:F0E1K6
+			locus_tag	AFIDOGJE_00010
+			product	putative methylxanthine N7-demethylase NdmC

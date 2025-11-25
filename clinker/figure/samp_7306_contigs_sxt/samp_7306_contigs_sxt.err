@@ -1,0 +1,235 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:34 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 34 present
+DISC_COUNT_NUCLEOTIDES:2 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:34 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:2 comment descriptors were found (all same)
+MISSING_GENOMEASSEMBLY_COMMENTS:2 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:2 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:2 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:2 sequences do not include structured comments.
+MISSING_PROJECT:36 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::34 proteins have invalid IDs.
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330_1 (length 71)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330_2 (length 271)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330_3 (length 352)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330_4 (length 94)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330_5 (length 322)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330_6 (length 1243)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330_7 (length 79)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_1 (length 109)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_2 (length 200)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_3 (length 120)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_4 (length 191)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_5 (length 58)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_6 (length 529)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_7 (length 92)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_8 (length 258)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_9 (length 258)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_10 (length 248)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_11 (length 266)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_12 (length 334)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_13 (length 248)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_14 (length 507)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_15 (length 559)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_16 (length 108)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_17 (length 257)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_18 (length 270)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_19 (length 503)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_20 (length 202)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_21 (length 146)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_22 (length 302)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_23 (length 398)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_24 (length 356)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_25 (length 513)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_26 (length 334)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_27 (length 377)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::2 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::2 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 34 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::2 nucleotide Bioseqs are present
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330 (length 9277)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184 (length 28215)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::34 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_1433330:116-331	HLMGHEDE_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_1433330:992-1807	HLMGHEDE_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_1433330:c3045-1987	HLMGHEDE_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_1433330:c3648-3364	HLMGHEDE_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	Cytidine deaminase	samp_7306_1433330:c4703-3735	HLMGHEDE_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	8-amino-7-oxononanoate synthase	samp_7306_1433330:c8831-5100	HLMGHEDE_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_1433330:c9169-8930	HLMGHEDE_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_2314184:c530-201	HLMGHEDE_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_2314184:c1125-523	HLMGHEDE_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_2314184:2061-2423	HLMGHEDE_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_2314184:c3147-2572	HLMGHEDE_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_2314184:c3330-3154	HLMGHEDE_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_2314184:3715-5304	HLMGHEDE_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_2314184:c5715-5437	HLMGHEDE_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_2314184:6119-6895	HLMGHEDE_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_2314184:6906-7682	HLMGHEDE_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_2314184:7658-8404	HLMGHEDE_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_2314184:8639-9439	HLMGHEDE_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	Methylxanthine N3-demethylase NdmB	samp_7306_2314184:9527-10531	HLMGHEDE_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	putative oxidoreductase	samp_7306_2314184:10677-11423	HLMGHEDE_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_2314184:11853-13376	HLMGHEDE_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	L-aspartate oxidase	samp_7306_2314184:13574-15253	HLMGHEDE_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	Choline trimethylamine-lyase activating enzyme	samp_7306_2314184:15267-15593	HLMGHEDE_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_2314184:15757-16530	HLMGHEDE_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_2314184:c17434-16622	HLMGHEDE_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	Multidrug resistance protein NorM	samp_7306_2314184:c19398-17887	HLMGHEDE_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	putative methylxanthine N7-demethylase NdmC	samp_7306_2314184:c20080-19472	HLMGHEDE_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	Carnitine monooxygenase oxygenase subunit	samp_7306_2314184:c20475-20035	HLMGHEDE_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	hypothetical protein	samp_7306_2314184:c21611-20703	HLMGHEDE_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	O-acetyltransferase OatA	samp_7306_2314184:c23057-21861	HLMGHEDE_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	Decarbamoylnovobiocin carbamoyltransferase	samp_7306_2314184:c24184-23114	HLMGHEDE_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	Multidrug resistance protein NorM	samp_7306_2314184:c25713-24172	HLMGHEDE_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	Methylxanthine N3-demethylase NdmB	samp_7306_2314184:c26678-25674	HLMGHEDE_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:CDS	Inosamine-phosphate amidinotransferase 1	samp_7306_2314184:c27871-26738	HLMGHEDE_00034
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::2 comment descriptors were found (all same)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::2 bioseqs are missing GenomeAssembly structured comments
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330 (length 9277)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184 (length 28215)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::2 molecule types are not set as mRNA.
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330 (length 9277)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184 (length 28215)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::2 technique are not set as TSA
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330 (length 9277)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184 (length 28215)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::2 sequences do not include structured comments.
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330 (length 9277)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184 (length 28215)
+
+DiscRep_ALL:MISSING_PROJECT::36 sequences do not include project.
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330 (length 9277)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330_1 (length 71)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330_2 (length 271)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330_3 (length 352)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330_4 (length 94)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330_5 (length 322)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330_6 (length 1243)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330_7 (length 79)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184 (length 28215)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_1 (length 109)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_2 (length 200)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_3 (length 120)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_4 (length 191)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_5 (length 58)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_6 (length 529)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_7 (length 92)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_8 (length 258)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_9 (length 258)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_10 (length 248)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_11 (length 266)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_12 (length 334)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_13 (length 248)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_14 (length 507)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_15 (length 559)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_16 (length 108)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_17 (length 257)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_18 (length 270)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_19 (length 503)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_20 (length 202)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_21 (length 146)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_22 (length 302)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_23 (length 398)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_24 (length 356)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_25 (length 513)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_26 (length 334)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184_27 (length 377)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::2 Molinfos are missing field technique
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_1433330 (length 9277)
+/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/figure/samp_7306_contigs_sxt/samp_7306_contigs_sxt:samp_7306_2314184 (length 28215)
+

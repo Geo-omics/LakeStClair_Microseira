@@ -1,0 +1,410 @@
+---
+title: "SC_notebook1"
+author: "Paul Den Uyl"
+date: "2025-11-12"
+output: html_notebook
+editor_options: 
+  chunk_output_type: inline
+---
+
+```{r dependencies setup}
+
+#rm(list=ls());if(is.null(dev.list()["RStudioGD"])){} else {dev.off(dev.list()["RStudioGD"])};cat("\014")
+library(tidyverse)
+library(dplyr)
+library(here)
+library(vroom)
+library(ggmap)
+library(googledrive)
+library(readxl)
+library(Biostrings)
+library(lubridate)
+library(ggplot2)
+library(ggpmisc)
+library(furrr)
+library(Rsamtools)
+knitr::opts_knit$set(root.dir = here::here("")) 
+
+#Load postgres server running on Alpena
+pg <- DBI::dbConnect(RPostgres::Postgres(), dbname = "glamr_data", host = "cayman.earth.lsa.umich.edu", port = "5432", user = "glamr_admin", password = "glamr2023")
+
+#Load GLAMR GTDBTK data
+gtdb <- tbl(pg, "GTDB") %>% 
+  collect() %>% 
+  mutate(sample = str_extract(bin, "samp_\\d+"))
+
+#Load GLAMR CheckM data
+checkM <- tbl(pg, "checkm") %>% 
+  collect() %>% 
+  mutate(sample = str_extract(bin, "samp_\\d+")) 
+
+#Load GLAMR sample data
+glamr_samples_pg <- tbl(pg, "glamr_samples") %>% 
+  collect() 
+
+#Load contig_bin_membership
+###TAKES A LONG TIME TO LOAD###
+contig_bin_membership_pg <- tbl(pg, "contig_bin_membership") #%>% 
+#collect() 
+
+```
+
+```{r general setup - soft link assemblies}
+
+#Identify samples by set (i.e. project) of interest in GLAMR - Lake St. Clair Only
+StudyID_SC <- c("set_82")
+
+#Import metadata table and filter to only include StudyID of interest 
+  #*PICK ONE a or b*
+  #a.) If working within GLAMR 
+  GLAMR_sample_table <- glamr_samples_pg 
+
+  #b.) If working in Github repo
+  #GLAMR_sample_table <- read_csv(file = "data/notebook1/Great_Lakes_Omics_Datasets_4Sept2025.csv")
+
+
+GLAMR_sample_table_SC <- GLAMR_sample_table %>% 
+                              filter(StudyID %in% StudyID_SC)                  #include only StudyID of interest (Lake St. Clair Microseira)
+
+#Save data table used (Last used/saved: November 12, 2025)
+#write_csv(GLAMR_sample_table_SC, file = "data/notebook1/GLAMR_sample_table_pg_SC_14Oct24.csv")
+                              
+GLAMR_sample_table_SC %>% distinct(SampleID) %>% count #5 Lake St. Clair Microseira metagenome samples in GLAMR set_82 - November 12, 2025
+
+#Gather all read paths to megahit assemblies to process through BLASTN, sym link to new path
+assembly_paths <- tibble(sample = GLAMR_sample_table_SC$SampleID) %>%
+                mutate(read_path = str_glue("/geomicro/data2/kiledal/GLAMR/data/omics/metagenomes/{sample}/assembly/megahit_noNORM/final.contigs.renamed.fa"),
+                       new_path = str_glue("/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/blast/query/assemblies_vs_cyanoToxin/{sample}_final.contigs.renamed.fa"))
+
+#symbolic link read_paths
+##file.symlink(assembly_paths$read_path, assembly_paths$new_path)
+
+``` 
+
+```{bash BLASTN available assemblies against numerious cyanotoxin genes - analyze}
+
+## conda config --set channel_priority strict
+## conda activate snakemake9
+## snakemake run_blastn_assemblies_UNIVERSAL_cyanoToxin --profile config/snakemake_profiles/vondamm --rerun-incomplete --dry-run 
+
+#assembly blastn results in /geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/blast/output/cyanoToxin/blastn/assemblies/
+
+```
+
+```{r analyze BLASTN ouput - cyanotoxin genes}
+
+#Make list of blastn result outputs
+blastn_assemblies_list <-  system("ls blast/output/cyanoToxin/blastn/assemblies/*.tsv", intern=TRUE) 
+
+#Include only files with results in list
+blastn_assemblies_list_results <- blastn_assemblies_list[file.size(blastn_assemblies_list) > 0]
+
+#Bind rows of all contig blastn results
+blastn_assemblies_results_vroom <- vroom(blastn_assemblies_list_results, col_names = FALSE, show_col_types = FALSE, delim = "\t")
+
+#Add column names - corresponding to blast output flag -outfmt '6 std qcovs stitle'
+colnames(blastn_assemblies_results_vroom) <- c("qseqid", "sseqid", "pident", "length", "mismatch", "gapopen", "qstart", "qend", "sstart", "send", "evalue", "bitscore", "qcovs", "stitle", "qlen") #added qlen Sept 26, 2024 for Buoyancy analysis
+
+#Column name reference: https://www.metagenomics.wiki/tools/blast/blastn-output-format-6
+#1.  qseqid      query or source (e.g., gene) sequence id
+#2.  sseqid      subject  or target (e.g., reference genome) sequence id
+#3.  pident      percentage of identical matches
+#4.  length      alignment length (sequence overlap)
+#5.  mismatch    number of mismatches
+#6.  gapopen     number of gap openings
+#7.  qstart      start of alignment in query
+#8.  qend        end of alignment in query
+#9.  sstart      start of alignment in subject
+#10. send        end of alignment in subject
+#11. evalue      expect value
+#12. bitscore    bit score
+#13. qcovs       query coverage per subject
+#14. stitle      subject title
+#15. qlen        query length
+
+#Make column for general toxin target id, toxin gene target, and sample ids
+blastn_assemblies_results_vroom_add <- blastn_assemblies_results_vroom %>% mutate(target = substr(sseqid, 1, 3),
+                                                                                  gene_target = substr(sseqid, 1,4),
+                                                                                  SampleID = qseqid %>% str_extract("samp_.*_") %>% str_sub(end = -2))
+
+#Combine BLASTN results and sample metadata from GLAMR
+#Call Sample_table from 1.) Setup, convert latitude/longitude values to numeric, add new column with sampling year
+GLAMR_assemblies_hits <- left_join(blastn_assemblies_results_vroom_add, GLAMR_sample_table_SC, by = "SampleID") %>%
+  mutate(
+    lat = as.numeric(as.character(lat)),
+    lon = as.numeric(as.character(lon)),
+    year = as.integer(str_remove(collection_date, "-.*"))
+  )
+
+#Sort to get lowest e-value hit for each contig
+GLAMR_assemblies_hits_filt = GLAMR_assemblies_hits %>%
+  mutate(qseqid_gene = paste0(qseqid, "_", gene_target)) %>%
+  arrange(qseqid_gene, evalue) %>%                        # sort the data by 'evalue' in ascending order for each qseqid
+  group_by(qseqid_gene) %>%
+  filter(row_number() == 1) %>%                      # keep only one row for each qseqid (lowest evalue)
+  ungroup()
+
+GLAMR_assemblies_hits_filt %>% distinct(SampleID)  #All 5 sample assemblies hit to cyanotoxin gene target(s) of interest - November 13, 2025
+
+```
+
+```{r qc BLASTN hits - 50% cover 80% ID}
+
+#Make table of cyanotoxin db gene lengths
+#First import blast database
+blastdb_cyanoToxin_read <- readDNAStringSet(filepath = "blast/database/nucl/blastdbcyanoToxin.fasta") 
+
+#Make a table with corresponding 50% length cutoff for each sequence
+names_width_table <- data.frame(
+  subject = names(blastdb_cyanoToxin_read),
+  ref_width = width(blastdb_cyanoToxin_read)
+) %>%
+  mutate(cutoff_width = (ref_width * .5) %>% round(.))
+
+#Filter blast hits for 50% reference gene length cutoff & 80% percent identity
+blastn_cyanotoxin_assemblies_unique_gene_QC <- GLAMR_assemblies_hits_filt %>%
+  inner_join(names_width_table, by = c("stitle" = "subject")) %>%
+  filter(length >= cutoff_width) %>%
+  filter(pident >= 80) 
+
+#These results provide the best hit for each unique cyanotoxin gene target and metagenomic contig
+blastn_cyanotoxin_assemblies_unique_gene_QC_select <- blastn_cyanotoxin_assemblies_unique_gene_QC %>%
+      select(qseqid, sseqid, SampleID, pident, length, qlen, qstart, qend, sstart, send, evalue, gene_target, ref_width, cutoff_width, lat, lon, SampleName, collection_date, geo_loc_name) 
+
+# Save results
+##write.csv(blastn_cyanotoxin_assemblies_unique_gene_QC_select, file ="data/notebook1/blastn_cyanotoxin_assemblies_results_50cov80id.csv")
+
+```
+
+```{r assign contig bin membership}
+
+contigs_oi <- blastn_cyanotoxin_assemblies_unique_gene_QC_select %>%
+  distinct(qseqid) %>%
+  pull(qseqid)
+
+bins_oi <- contig_bin_membership_pg %>%
+  filter(contig %in% contigs_oi) %>%
+  collect()
+
+View(bins_oi)
+
+#Merge with gtdb and checkM - using GLAMR
+bins_oi_gtdb <- left_join(bins_oi, gtdb, by = "bin")
+bins_oi_gtdb_checkM <- left_join(bins_oi_gtdb, checkM, by = "bin") %>%
+                          select(contig, sample, bin, classification, Completeness, Contamination, `Strain heterogeneity`) %>%
+                          filter(!is.na(classification))
+#All bins classified as: d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__
+#Selected bin:
+#samp_7306_VAMB_985
+#completness: 98.22
+#contamination: 1.78
+#strain heterogeneity: 0.00
+
+##write.csv(bins_oi_gtdb_checkM, file = "data/notebook1/bins_from_blastn_cyanotoxin_assemblies_results.csv")
+
+```
+
+```{r examine f__Phormidiaceae_A;g__UBA11371;s__}
+
+#One MAG with BLASTN contig hits identified after QC by checkM completeness and contamination:
+#samp_7306_VAMB_985 
+
+#GToTree utilized to determine phylogenomic placement of MAG
+#MAGs downloaded from NCBI to provide diverse phylogenomic tree to examine samp_7306_VAMB_985 placement
+#samp_7306_VAMB_985 located right next to Microseira wollei
+
+#Tree data: /geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/GToTree/GToTree_cleaner*
+#*Originally from /geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2024/StClair_microseira/GToTree/GToTree_cleaner
+
+#Next examine presence of cyanotoxin genes in tree MAGs, offers ability to create tree showing distribution of sxt genes
+
+```
+
+```{r BLASTN initial GToTree MAGs against numerious cyanotoxin genes - analyze}
+
+## conda activate snakemake9
+## snakemake run_blastn_GToTree_cyanoToxin --profile config/snakemake_profiles/cayman/ --dry-run
+
+#GToTree MAG blastn results in /geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/blast/output/cyanoToxin/blastn/mags/
+
+#Make list of blastn result outputs
+blastn_mags_list <-  system("ls blast/output/cyanoToxin/blastn/mags/*.tsv", intern=TRUE) 
+
+#Include only files with results in list
+blastn_mags_list_results <- blastn_mags_list[file.size(blastn_mags_list) > 0]
+
+#Bind rows of all contig blastn results
+blastn_mags_results_vroom <- vroom(blastn_mags_list_results, col_names = FALSE, show_col_types = FALSE, delim = "\t")
+
+#Add column names - corresponding to blast output flag -outfmt '6 std qcovs stitle'
+colnames(blastn_mags_results_vroom) <- c("qseqid", "sseqid", "pident", "length", "mismatch", "gapopen", "qstart", "qend", "sstart", "send", "evalue", "bitscore", "qcovs", "stitle", "qlen") #added qlen Sept 26, 2024 for Buoyancy analysis
+
+#Column name reference: https://www.metagenomics.wiki/tools/blast/blastn-output-format-6
+#1.  qseqid      query or source (e.g., gene) sequence id
+#2.  sseqid      subject  or target (e.g., reference genome) sequence id
+#3.  pident      percentage of identical matches
+#4.  length      alignment length (sequence overlap)
+#5.  mismatch    number of mismatches
+#6.  gapopen     number of gap openings
+#7.  qstart      start of alignment in query
+#8.  qend        end of alignment in query
+#9.  sstart      start of alignment in subject
+#10. send        end of alignment in subject
+#11. evalue      expect value
+#12. bitscore    bit score
+#13. qcovs       query coverage per subject
+#14. stitle      subject title
+#15. qlen        query length
+
+#Make column for general toxin target id, toxin gene target, and sample ids
+blastn_mags_results_vroom_add <- blastn_mags_results_vroom %>% mutate(target = substr(sseqid, 1, 3),
+                                                                                  gene_target = substr(sseqid, 1,4))
+
+#Sort to get lowest e-value hit for each contig
+GToTree_mag_hits_filt = blastn_mags_results_vroom_add %>%
+  mutate(qseqid_gene = paste0(qseqid, "_", gene_target)) %>%
+  arrange(qseqid_gene, evalue) %>%                        # sort the data by 'evalue' in ascending order for each qseqid
+  group_by(qseqid_gene) %>%
+  filter(row_number() == 1) %>%                      # keep only one row for each qseqid (lowest evalue)
+  ungroup()
+
+#qc BLASTN hits - 50% cover 80% ID
+
+#Make table of cyanotoxin db gene lengths
+#First import blast database (again)
+blastdb_cyanoToxin_read <- readDNAStringSet(filepath = "blast/database/nucl/blastdbcyanoToxin.fasta") 
+
+#Make a table with corresponding 50% length cutoff for each sequence
+names_width_table <- data.frame(
+  subject = names(blastdb_cyanoToxin_read),
+  ref_width = width(blastdb_cyanoToxin_read)
+) %>%
+  mutate(cutoff_width = (ref_width * .5) %>% round(.))
+
+#Filter blast hits for 50% reference gene length cutoff & 80% percent identity
+blastn_cyanotoxin_GToTree_mags_unique_gene_QC <- GToTree_mag_hits_filt %>%
+  inner_join(names_width_table, by = c("stitle" = "subject")) %>%
+  filter(length >= cutoff_width) %>%
+  filter(pident >= 80) 
+
+GToTree_mag_hits_QCfilt_order <- blastn_cyanotoxin_GToTree_mags_unique_gene_QC %>%
+                                      arrange(target, qseqid)
+
+GToTree_mag_hits_filt_sxt <- blastn_cyanotoxin_GToTree_mags_unique_gene_QC %>%
+                                      arrange(target, qseqid) %>%
+                                      filter(target == "sxt") %>%
+                                      distinct(qseqid)
+
+#Assign sxt label to these MAGs in tree
+#JAAVWA010000022.1 - MAG: Anabaena sp. 54 Dolichospermum_54_NODE_129, whole genome shotgun sequence [not totally convincing has sxt genes, not published]
+#NZ_APIY01000369.1 - Dolichospermum circinale AWQC131C 131C_Scaffold56_C, whole genome shotgun sequence
+#NZ_APIY01000471.1 - Dolichospermum circinale AWQC131C sxt_C, whole genome shotgun sequence
+#NZ_APIY01000472.1 - Dolichospermum circinale AWQC131C sxt2_C, whole genome shotgun sequence
+#NZ_CP011456.1 - Anabaena sp. WA102 isolate 1 chromosome, complete genome [no sure if included in tree]  [not totally convincing has sxt genes, not published]
+#NZ_JAOWRF010000405.1 - Plectonema radiosum NIES-515 NODE_4_length_87129_cov_10.015988, whole genome shotgun sequence  [not totally convincing has sxt genes]
+#NZ_KE384651.1 - Dolichospermum circinale AWQC131C 131C_Scaffold7, whole genome shotgun sequence
+#NZ_KE384656.1 - Dolichospermum circinale AWQC131C 131C_Scaffold78, whole genome shotgun sequence
+#NZ_LR882970.1 - Planktothrix tepida strain PCC9214 chromosome I [not totally convincing has sxt genes]
+#NZ_VILF01000005.1 - Dolichospermum flos-aquae UHCC 0037 newAn37_scaffold5, whole genome shotgun sequence [not totally convincing has sxt genes, not sure if included in tree]
+#samp_471 - 
+#samp_7306 - 
+
+#There are some sxt gene hits, but nothing convicing other than what's published.  Label only published sxt genomes on tree, including:
+  #Dolichospermum circinale AWQC131C
+  #samp_471
+  #samp_7306
+
+#Final tree data: /geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/GToTree/GToTree_finalv2
+
+```
+
+```{bash create phlyogenomic tree}
+
+cd /geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/GToTree/GToTree_final
+conda deactivate
+comics -i sid
+cp -r /usr/local/lib/GToTree-1.7.05/hmm_sets/ ./
+export GToTree_HMM_dir=hmm_sets/
+export TAXONKIT_DB=ncbi-taxdump
+GToTree -f fasta_files_mediumv3.txt -H Cyanobacteria -t -m genome_to_id_map_mediumv3.tsv -j 10 -o Tree_Output_Mediumv3
+
+```
+
+```{r create clinker figure for sxt contigs}
+
+#Clean up name from blast results above
+GLAMR_assemblies_sxt_hits <- blastn_cyanotoxin_assemblies_unique_gene_QC_select
+
+assembly_paths_clinker <- tibble(sample = GLAMR_assemblies_sxt_hits$SampleID) %>%
+                mutate(read_path = str_glue("/geomicro/data2/kiledal/GLAMR/data/omics/metagenomes/{sample}/assembly/megahit_noNORM/final.contigs.renamed.fa"),
+                       new_path = str_glue("/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/clinker/contig_compare/megahit_noNORM/{sample}_final.contigs.renamed.fa")) %>%
+                filter(sample %in% GLAMR_assemblies_sxt_hits$SampleID) %>%
+                distinct(.)
+
+#symbolic link read_paths
+file.symlink(assembly_paths_clinker$read_path, assembly_paths_clinker$new_path)
+
+##################
+#Extract contigs#
+#################
+
+for (sample in GLAMR_assemblies_sxt_hits$SampleID) {
+  
+output_fasta <- paste0("clinker/contig_compare/contigs_oi/", sample, "_contigs_oi.fa")
+
+input_fasta <- paste0("../clinker/contig_compare/megahit_noNORM/", sample, "_final.contigs.renamed.fa")
+
+# Read the FASTA file using Biostrings
+fasta_data <- readDNAStringSet(input_fasta, format = "fasta")
+
+# Convert to tibble for easier manipulation
+fasta_df <- tibble(
+  name = names(fasta_data),
+  sequence = as.character(fasta_data))
+
+# Make list of contig names to filter
+contigs_to_filter <- GLAMR_assemblies_sxt_hits %>%
+                                filter(SampleID == sample) %>%
+                                select(qseqid)
+
+# Extract the contig of interest 
+contigs_of_interest <- fasta_df %>%
+  filter(name %in% contigs_to_filter$qseqid)
+
+# Convert the all contigs back to a DNAStringSet
+contigs_to_write <- DNAStringSet(contigs_of_interest$sequence)
+names(contigs_to_write) <- contigs_of_interest$name
+
+# Write the contig to the new FASTA file
+writeXStringSet(contigs_to_write, output_fasta)
+
+}
+
+```
+
+```{bash run prokka to create gbk / gb files for clinker}
+
+## conda config --set channel_priority flexible
+### snakemake run_prokka_cyanoToxin_contigs --profile config/snakemake_profiles/cayman --rerun-incomplete --dry-run 
+## conda config --set channel_priority strict
+
+#files in /geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/github/clinker/contig_compare/contigs_oi/prokka/gb
+
+```
+
+```{bash visualze contigs with clinker}
+
+cp clinker/contig_compare/contigs_oi/prokka/gb/samp_7306_contigs_oi.gb clinker/figure/
+
+conda env create --file config/clinker_2024.1.yml --name clinker_2024.1
+
+conda activate clinker_2024.1
+
+clinker clinker/figure/*.gb -p clinker/figure/LSC24-BL_sxt_plot_FINAL1.html
+
+#Open LSC24-BL_sxt_plot_FINAL1.html with local browser
+#Download SVG file and edit in Adobe Illustrator
+
+```
+
+

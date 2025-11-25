@@ -1,0 +1,35 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+LDNJMDMM_00001	CDS	216				hypothetical protein
+LDNJMDMM_00002	CDS	816				hypothetical protein
+LDNJMDMM_00003	CDS	1059				hypothetical protein
+LDNJMDMM_00004	CDS	285				hypothetical protein
+LDNJMDMM_00005	CDS	969	cdd	3.5.4.5	COG0295	Cytidine deaminase
+LDNJMDMM_00006	CDS	3732	bioF	2.3.1.47		8-amino-7-oxononanoate synthase
+LDNJMDMM_00007	CDS	240				hypothetical protein
+LDNJMDMM_00008	CDS	330				hypothetical protein
+LDNJMDMM_00009	CDS	603				hypothetical protein
+LDNJMDMM_00010	CDS	363				hypothetical protein
+LDNJMDMM_00011	CDS	576				hypothetical protein
+LDNJMDMM_00012	CDS	177				hypothetical protein
+LDNJMDMM_00013	CDS	1590				hypothetical protein
+LDNJMDMM_00014	CDS	279				hypothetical protein
+LDNJMDMM_00015	CDS	777				hypothetical protein
+LDNJMDMM_00016	CDS	777				hypothetical protein
+LDNJMDMM_00017	CDS	747				hypothetical protein
+LDNJMDMM_00018	CDS	801				hypothetical protein
+LDNJMDMM_00019	CDS	1005	ndmB_1	1.14.13.179		Methylxanthine N3-demethylase NdmB
+LDNJMDMM_00020	CDS	747		1.-.-.-		putative oxidoreductase
+LDNJMDMM_00021	CDS	1524				hypothetical protein
+LDNJMDMM_00022	CDS	1680	nadB	1.4.3.16	COG0029	L-aspartate oxidase
+LDNJMDMM_00023	CDS	327	cutD	1.97.1.-		Choline trimethylamine-lyase activating enzyme
+LDNJMDMM_00024	CDS	774				hypothetical protein
+LDNJMDMM_00025	CDS	813				hypothetical protein
+LDNJMDMM_00026	CDS	1512	norM_1		COG0534	Multidrug resistance protein NorM
+LDNJMDMM_00027	CDS	609		1.14.13.128		putative methylxanthine N7-demethylase NdmC
+LDNJMDMM_00028	CDS	441		1.14.13.239		Carnitine monooxygenase oxygenase subunit
+LDNJMDMM_00029	CDS	909				hypothetical protein
+LDNJMDMM_00030	CDS	1197	oatA	2.3.1.-		O-acetyltransferase OatA
+LDNJMDMM_00031	CDS	1071	novN	2.1.3.12		Decarbamoylnovobiocin carbamoyltransferase
+LDNJMDMM_00032	CDS	1542	norM_2		COG0534	Multidrug resistance protein NorM
+LDNJMDMM_00033	CDS	1005	ndmB_2	1.14.13.179		Methylxanthine N3-demethylase NdmB
+LDNJMDMM_00034	CDS	1134	strB1	2.1.4.2	COG1834	Inosamine-phosphate amidinotransferase 1

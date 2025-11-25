@@ -1,0 +1,136 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:10 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 10 present
+DISC_COUNT_NUCLEOTIDES:4 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:10 features have inconsistent gene locations.
+NO_ANNOTATION:2 bioseqs have no features
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:4 comment descriptors were found (all same)
+MISSING_GENOMEASSEMBLY_COMMENTS:4 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:4 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:4 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:4 sequences do not include structured comments.
+MISSING_PROJECT:14 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::10 proteins have invalid IDs.
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_1 (length 92)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_2 (length 377)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_3 (length 478)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_4 (length 271)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_5 (length 352)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_6 (length 94)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_7 (length 322)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_8 (length 373)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_9 (length 818)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4410053_1 (length 219)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::4 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::4 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 10 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::4 nucleotide Bioseqs are present
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_2401880 (length 765)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_3236758 (length 1181)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520 (length 12408)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4410053 (length 789)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::10 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:CDS	hypothetical protein	samp_7308_4255520:12-290	AFIDOGJE_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:CDS	Inosamine-phosphate amidinotransferase 1	samp_7308_4255520:c2141-1008	AFIDOGJE_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:CDS	Multidrug resistance protein NorM	samp_7308_4255520:c3663-2227	AFIDOGJE_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:CDS	hypothetical protein	samp_7308_4255520:4388-5203	AFIDOGJE_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:CDS	hypothetical protein	samp_7308_4255520:c6441-5383	AFIDOGJE_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:CDS	hypothetical protein	samp_7308_4255520:c7044-6760	AFIDOGJE_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:CDS	Cytidine deaminase	samp_7308_4255520:c8099-7131	AFIDOGJE_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:CDS	8-amino-7-oxononanoate synthase/2-amino-3-ketobutyrate coenzyme A ligase	samp_7308_4255520:c9617-8496	AFIDOGJE_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:CDS	hypothetical protein	samp_7308_4255520:c12226-9770	AFIDOGJE_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:CDS	putative methylxanthine N7-demethylase NdmC	samp_7308_4410053:c778-119	AFIDOGJE_00010
+
+DiscRep_ALL:NO_ANNOTATION::2 bioseqs have no features
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_2401880 (length 765)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_3236758 (length 1181)
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::4 comment descriptors were found (all same)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_2401880:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_3236758:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4410053:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::4 bioseqs are missing GenomeAssembly structured comments
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_2401880 (length 765)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_3236758 (length 1181)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520 (length 12408)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4410053 (length 789)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::4 molecule types are not set as mRNA.
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_2401880 (length 765)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_3236758 (length 1181)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520 (length 12408)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4410053 (length 789)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::4 technique are not set as TSA
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_2401880 (length 765)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_3236758 (length 1181)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520 (length 12408)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4410053 (length 789)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::4 sequences do not include structured comments.
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_2401880 (length 765)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_3236758 (length 1181)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520 (length 12408)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4410053 (length 789)
+
+DiscRep_ALL:MISSING_PROJECT::14 sequences do not include project.
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_2401880 (length 765)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_3236758 (length 1181)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520 (length 12408)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_1 (length 92)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_2 (length 377)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_3 (length 478)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_4 (length 271)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_5 (length 352)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_6 (length 94)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_7 (length 322)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_8 (length 373)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520_9 (length 818)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4410053 (length 789)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4410053_1 (length 219)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::4 Molinfos are missing field technique
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_2401880 (length 765)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_3236758 (length 1181)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4255520 (length 12408)
+clinker/contig_compare/contigs_oi/prokka/samp_7308_contigs_oi/samp_7308_contigs_oi:samp_7308_4410053 (length 789)
+

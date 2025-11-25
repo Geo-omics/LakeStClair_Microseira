@@ -1,0 +1,20 @@
+"","contig","sample","bin","classification","Completeness","Contamination","Strain heterogeneity"
+"1","samp_7306_1433330","samp_7306","samp_7306_concoct_668","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",98.22,2.22,0
+"2","samp_7306_1433330","samp_7306","samp_7306_maxbin_186","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",98.44,2.96,0
+"3","samp_7306_1433330","samp_7306","samp_7306_metabat2_93","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",97.56,1.56,0
+"4","samp_7306_1433330","samp_7306","samp_7306_metadecoder_352","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",93.22,1.56,0
+"5","samp_7306_1433330","samp_7306","samp_7306_semibin_812","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",97.78,1.56,0
+"6","samp_7306_1433330","samp_7306","samp_7306_VAMB_985","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",98.22,1.78,0
+"7","samp_7306_2314184","samp_7306","samp_7306_concoct_668","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",98.22,2.22,0
+"8","samp_7306_2314184","samp_7306","samp_7306_maxbin_186","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",98.44,2.96,0
+"9","samp_7306_2314184","samp_7306","samp_7306_metabat2_93","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",97.56,1.56,0
+"10","samp_7306_2314184","samp_7306","samp_7306_metadecoder_352","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",93.22,1.56,0
+"11","samp_7306_2314184","samp_7306","samp_7306_semibin_812","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",97.78,1.56,0
+"12","samp_7306_2314184","samp_7306","samp_7306_VAMB_985","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",98.22,1.78,0
+"13","samp_7308_3236758","samp_7308","samp_7308_concoct_758","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",86.19,3.46,19.05
+"14","samp_7308_4255520","samp_7308","samp_7308_concoct_758","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",86.19,3.46,19.05
+"15","samp_7308_4255520","samp_7308","samp_7308_maxbin_275","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",58.74,0.56,25
+"16","samp_7308_4255520","samp_7308","samp_7308_metabat2_190","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",52,0.22,0
+"17","samp_7308_4255520","samp_7308","samp_7308_metadecoder_403","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",41.19,0.22,0
+"18","samp_7308_4255520","samp_7308","samp_7308_semibin_960","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",44.9,0.22,0
+"19","samp_7308_4255520","samp_7308","samp_7308_VAMB_1193","d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae_A;g__UBA11371;s__",58.57,1,40

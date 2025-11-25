@@ -1,0 +1,1176 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    seq {
+      id {
+        local
+          str "samp_7308_2401880" } ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        molinfo {
+          biomol genomic } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 11 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 18 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2025 } } } ,
+        create-date
+          std {
+            year 2025 ,
+            month 11 ,
+            day 18 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 765 ,
+        seq-data
+          iupacna "GTCCACTCTTATCTGGAGTCATTTTAATAGCTCGTTTTTATCAAGCGATTGGCAAGAAG
+ATTGCCAATAGTGATGATGGGGAAGAGAGTCAACTTATACTCACCGACAAGGTGTTGAAATGCAGATCTTAGGAATTT
+CAGCTTACTACCACGATAGCGCTGCCGCTATGGTTGTCGATGGCGAAATTGTTGCCGCAGCCCAGGAAGAACGTTTTT
+CAAGACGAAAGCACGATGCTGGTTTTCCTACGGGATCCCTCGCTTACTGTCTAAAACAAGCAGGAACCAAGTTACAAG
+ATGTCGATCAAATTGTTTTTTACGACAAGCCATTAGTCAAATTTGAGCGGTTGCTAGAAACATATTTAGGATATGCCC
+CAAAGGGATTTAGCTCGTTTCTCACTGCCATGCCCGTCTGGCTAAAAGAAAAGCTTTACCTAAAAACACTCTTAAAAA
+AAGAATTGGCACTCTTGGGGGAGTGCAAAACTTCTCAATTGCCTCCTCTATTATTTACCTCGCATCACCAAGCCCATG
+CGGCTGCTGCCTTTTTTCCCAGTCCTTTTGAGCGTGCTGCCGTTTTGTGCTTAGATGGTGTAGGAGAGTGGGCAACCA
+CTTCTGTCTGGTCGGGAGAAGGGAATCAACTGACACCCCAATGGGAAATTGATTTTCCCCACTCCCTCGGTTTGCTTT
+ATTCAGCCTTTACCTACTACACCGGGTTCAAAGTTAACTCAGGTGAGTACAAACTCATGGGTTTAGCGCCCTACGGCG
+AACC" } } ,
+    seq {
+      id {
+        local
+          str "samp_7308_3236758" } ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        molinfo {
+          biomol genomic } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 11 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 18 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2025 } } } ,
+        create-date
+          std {
+            year 2025 ,
+            month 11 ,
+            day 18 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1181 ,
+        seq-data
+          iupacna "CAAAGATTACAACTTTGGTTACAGTAAATAGAACGTGAGGAGCGATCGCCTTAAACTTC
+GTCCATGTTGAAACCTGGAGTAGTGCGGTATCCAAAGACCGCTACTACCATCAGGGAGCAAGATGCTCCCACTACCCA
+TGAAAAACTATGGTTCTGAAAATAGATGTGCTTTATCTAAAAATCATACCTTAATTCAGCAACGCCACAAAAATCATG
+TCAAATTTTCTGACTTACGCTTAAAACTAGGAGACAATTATGACAACTGCCGATCTCATCTTAATCAACAACTGGTAC
+GTAGTTGCCAAGGTAGAAGATTGTAGACCAGGAAGTATCACCACAGCTCATTTGTTGGGAGTTAAGTTGGTACTATGG
+CGCAGTCATGAACAGAATTCACCCATACAAGTATGGCAAGACTACTGCCCCCACCGAGGTGTTCCTCTGTCTATGGGA
+GAAGTTGCGAATAATACTTTGGTTTGTCCCTATCACGGATGGAGGTACAATCAAGCAGGTAAATGCGTACATATCCCC
+GCTCACCCTGACATGGTACCCCCAGCAAATGCACAAGCCAAGACCTATCATTGCCAGGAACGCTATGGCTTAGTGTGG
+GTGTGCTTAGGAAACCCTGTTAATGATATACCTTCGTTCCCCGAATGGGACGATCCGAATTATCACAAGACTTATACG
+AAGTCGTACTTGATTAAAGTTAGTCCGTTTCGTGTGATGGATAATTCCTTAGATGTAGCTCATTTTCCTTTTATCCAC
+GAGGGGATCTTAGGCGATCGCAATCATGCAGAAGTTGAACACCTTGAGGTGAAAGTAGACAAAGATGGTCTTACCATG
+GGTAAGTATCAAGTACATACATCAAAGTTCAACAATAGTACTAAAGATGACTCAATGGTTAATTGGTTCAGGCTTAGT
+CATCCTTTATGTCAATACTGTAGTACGGAAGCTTCTGAAATGCGGACGGTGGATTTAATGGTGGTAACACCGATTGAT
+GAAGACAACAGCGTGTTGCGTTATTTGATAATGTGGAACGGTTCTAAAACGTTAGAGTCCAAGATACTAGCCGATTAT
+GACCAAGTAATAGAAGAAGATATTCGGATCCTACATTCCCAACAGCCAACGCGTTTACCACTGTTATCCCCAAAGCAG
+ATAAACACGCAAGGGTTGCCACAGGAAATA" } } ,
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 11 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 18 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2025 } } } ,
+        create-date
+          std {
+            year 2025 ,
+            month 11 ,
+            day 18 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "samp_7308_4255520" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 12408 ,
+            seq-data
+              iupacna "GCCTCGATCTGATGGCACATGTATTTCCTGTGGCAACCCTTGCGTGTTTATCTGC
+TTTGGGGCTAACAGTGGTAAACGCGCTGGCTGTTGAGAATGTAAGATCCGAATATCTTGTTCTATTGTTTCGTCATAT
+TCGGTTAGCATCTTTGACTCTAACATTTCAGATCCGTTCCACATTATCAACATCCGCAATACGCTGTTGTCTTCATCA
+ATCGGTGCGATCGTCATCAAATCCACGATCCGCATTTCAGGGGATTCTGAAACGCAGTATTGACATAAAGGATGACTA
+AGCCTGAACCAATTAACCCATGAGTCATCTTCGATATGGCTGACAATCCTTGATGTCTGGAATTGATACTTACCCATA
+GTAAGACCATCTTTATCTACTTTCACCTCAAAGTCTTCCACTTTTGTATAATTGCGATCGCCTAACCAACCGTCATGG
+ATAAAAGGAGAATGAGATACATCTATGGAATTAGCCATCACACGAAACGGACTAGCTTGAATCAAGTACGACTTCGTA
+TAAGTCTTGTGATAATTCGGATCGTTCCATTCGGGGAACGAAGGTATATCATTAACAGGGTCCCCTAAGCACACCCAC
+ACTAAGCCGTAGCGTTCCTGGCAATGATAGGTTTTGGCTTGGGCACTTGCTGGGGGTACCATGTCAGGGTGAGCCGGG
+ATCTTTACGCATTTACCAGCTTCATTGTATCTCCATCCGTGATATGGACAAACCAAAGTATTATTAGCCACTTCTCCC
+ATCGACAGAGGAACACCTCGGTGGGGGCAGTAGTCTTGCCATACCTGTATGGGTGAATTCTGTTCATAACTGCGCCAT
+AGTACCAACTTCACTCCCAACAAACGAGCTGTGGTGATACTTCCTGGTTTACAGTCTTCTACCTTGGCGACTACGTGC
+CAGTTGTTGATTAAGATTTGGTCGGCAGTTGTCATGATTGTCTCCTAGTTTTACCGATTTTATCACTGTGGTGAAAGG
+ATAACTGAAATAAATATTAAAAATAGGACTGGAGAGTTCCGCGTCGGCGAACATCTAACGTTGCACAGTGAAATGAGC
+CTAAAAAGGGATAGTAGCTTTCAAACGAGCAAACAATAGGCTTAAATCCCCAATCTTTGAGTGCTTTAATCATCGGCT
+CCTGTTTTTTTTCTACAATGACTCGCTCTTCATCTAACATTAGTACATTCAATCCTGCCCATTCACTGACTAATCTTA
+GCTGGTTCTGGGGGATATGGTTGGGGTAAGGTGCAACCAAAATGTCCCAGCTTTTCAGGATTTTTGGCAATTTATTAA
+CATCTACAAATTCTGGATTAACCAGTATTTTGCCGGGAGCAAGAGGCATTAAGGTGGTATCGATGTGCAGTGCTTCCG
+GGCATTGGGATTCAATAATGTGAATGCGGTATTCGTCTTCCAGGTGGCGTTGTAACCACTCTATGCCCAAACTATTAG
+TGACATGACTTTTTTGTCCAAAAATATCCCTTCCGCAGCGCACAAAATCTGCAGCATCAAAAGTTGGTTCAAACTCTG
+TAATGACAAAGCGCGACGGCTCCCCTGTTTGAGGAAACTGGAAATTGAAGTCATACTGTGCGTCGAATAATTGTGGCT
+TCGGTGCCGCAGTCCACTTAGCTCCTGCCTGAAAATATTCCTTGAGCAGATCTCGATACGCCCAAGCTTCAAAATAGC
+GGTTGCGATCTGCCATTGGTACTTCAATAATCTCATTGCCAATCACCAAAAAAACATCACGAGGATTGGCGGCACAAA
+AACCACTTCTTACTTGCCAAGCTGGTGTGGAAAAGGAGGCAGAGAAATCTACAGGTTTAACTCGACGAACTTTGACTC
+CTTCTGCTTCAAGAATGTGGATAAATTCATTTAGTTCTTTGTGTGCTACTGCAATCATCTCTGGTGGATAGGGAATCC
+CTCCCGTCTCAGAGAGTACCTTTTGGGCAGATTCCAATTCTTCCAGAGGGAATGTCCATTTGTTGATTGGTTCTAGGG
+CAGGTAACATTGCACCTTCAACACTGCCAACAATGACTTCCTCAAGCGCGTCCCACTCATTATAAGAATTCACAGGAC
+AGGGCTGCTTGGCGATTGGTAACTTGTTCTCTAATTCTTGGTTATTTTGACTGGTCATAAGTTGTTTTCCTAATCGAT
+AAGCTGCGGATCATTATTCAGTCATTCCAGCTAATTCTTCTGGACATCAATACTTTGACAAACTTTCAACTTATAAAT
+GCTTGAATACTCTCTTCCCCATCATCACTATTGGCAATCTTCTTGCCAATCGCTTGATAAAAACGAGCTATTAAAATG
+ACTCCAGATAAGAGTGGACTCAAAACCATACCTAACCAGATACCCATACCCCCCCAACCTAAAATTATTCCCATACAA
+TAGCTTCCTGTCAAGCCAATACCCCAGCCACCCAAGTTCATTAACACTGGCACTAACGTATCTTGCAACCCCACTAAA
+GCCCCAACAATAATTACTTGAATACTGTAAAAAAGTTGGAATAATCCCGCCAAAATGAGAAAAGAAGTTGCTGTCTTA
+ACTGCTTCGATATTCTCAGGATTGTTTATATCTAAATAAATTCCGGCAATCTGATATGGAAACAACCAGAAAATGAAT
+GCCACAGCACTGGCATAAATGCTACCAATCGTAATCCCAATCAATGCTGCCCTTTTTGCACCCAAAGGGTTTTTTTCT
+CCCATAGTCTGACCTACTCTCGTGATAGCAACATTGCCGATTCCGAGTGGTATCACCATCGCCATCTCTACTGTCTCT
+AACGCCATCTCATGGGCTGCTAATGTTACTGTTCCTAAATATCCTGCTAGCCCAGCGCTGACACTCAATAGTGCTGAT
+TCCGCTCCCCATTGAAATCCCATAGGCCATCCAGTTTGAAAAATTTTCACAAAGGTCTGTCGATCAAACTGATGCCAG
+TAGCAGAAAAGTTTATAATCTCTAACTTTTGGGTAAAAAATCAGCAAGATAACTCCCACTATAAAACTAAGCCAAAAA
+ACCAGAGCAGTTGCCCAGGCTATTCCAGCTAAACCAAGTTGAGGCAGACCAAATTTACCGAACATTAACACATAATCG
+GCAGGGGCATTCAAGACCAGCCCAGCCAGCATCGTGACCGTTATCAATCGGGGGACGTTGACAGCAGAGGCAATGCCT
+CTTAAGATCATAACACCCAGTGCAGCCGGAAAGCCCCACACAATTGTCTGTAAATAGATTTTTGCCAGTAACACATTG
+CTTTCTTCTTGACCAAATAGCAGCAAGATAGTATCGGTATGCCAAAGCAGAAACATTGCAGGTAAAGATAAGGCAACT
+ACTAGCCATATTTGTCCAGAAGCAATACGACGAAGTTGATCTATGTTGTTGGCCCCAAAAGCCTCGGCTGCTATAGCT
+CCTCCTGATAAGAGAATACCATAGCAGGTAGCTAATAAAGTCAAAAAAGCGATCGCACCCAAAGCACCACCAGCCAAA
+ACTTGTGTCCCAAGTAAACCCATCATGACTACATTCACTACATTAATGCCCGTTTCGCACATTTGGGAAATCACTAGG
+GGAATTGCCAATTGTAGGCTTGCTCGTGCTTCTGATATAAGCTCTGACTTATATCCTGTTGATGTTATTTCTGCTAAT
+CCTCTTTGGGTATTTGTCATATCTCCTATCTTGCGCCTATTTCATACACTGAATGCAACTGAAATTAACAAACACCAT
+AAGTAACGCCTAGTTCCTTTAGCCATCGACGATAGGCAACTGTGCCTCGATCTGATGGTATATGTTAAGGTTTTTTGC
+TTGCCTCCAGGTTTTTTTTGATGTCCGTCTACAATACCCTCTGCATAATCCAGGTGCGGAACGATCTCGATCCGAGTA
+CGAGGTATGACTGCACACTGATTTTACTTCCGTCTGAAACCATTACAGTATCAGACTTTCCAAATTATGGTAAGTCCG
+ATACATAACTACAATCGATGAAACCCTTATGTAGTGTGAATTTCAGCCGATGTTATGTTGAAATCGATTGAAAAACAT
+ATTTTGTGCGATCGCGCAGCGTGCCGGAGGCATATCGCCTGTCATACATGACTACAAAATTTGGAGGCTAAATGGCTA
+TAAGCCAAGCTTAGCAAGGACTTCAGCCACTGTAAGTTGCCCTGTAGGGGGCAACTTCCGACTAAATAATACTATTTA
+TCGCAACTTGGTATAAATATAGAGTTGACACATTCATGGTATTACAGTATTATAACAAATTAATCATGTCATAAGCAA
+ACAAATTTACAATAGAAGCTTTAATTAATCTATTTTTAGATTGATTTTGCGACTCAGTTTGTTTAGCTTTTCAGTAAC
+ATTCTCATCTAATCCAAAATGAAAACAAACAAGCATATAGCTATGTGGGCTTGTCCTAGAAGCCGTTCGACTGTCATT
+ACTCGTGCTTTTGAGAATTTGGATGGGTGTATTGTTTATGATGAGCCTCTATTAGCTCCTTATGTCTTTATGACAACT
+TACACGACTAGTAAAAGTCGTACATTAGAAGAAGAAAACTTAAAGCAATTATTGGCGCAAAATAATTTTGAAACTGAC
+ATCAAGAAAGTTATAGAAAAAATCACTGGAAATTTACCGGACGGAAAATTATTCTCATTTCAAAAAATGATAACAGGT
+GACTATAGATATGAATTTGGAATAGATTGGGCAAAAAAGCTAACTAACTTCTTTTTAATAAGGCATCCCCAAGATATT
+ATTTTGTCTTTGGATATAGCGGAGAAAAGGTCAGGTATCACAGACCCATTCACACAACAAATGGTTGGGATGAAAACA
+CTTTATCAAATTTTCCAACAGATTGAAGTTATTACAGGACAAATACCTTTAGTTATTCACTCAGATGATATAATTAAA
+AACCCTCCTTCTGCTTTGCAATGGCTGTGTAAAAACTTAGAGATTGCATTTGATAAAAGGATGCTGACATGGAAAGCA
+AATCTAGAAGATTCCAATTATTTATTGTATCCACAATTATATGGTAATTCTGCGTTGAGCAGTTCAGAACCTTGGTAT
+GAAACTTTAAGATCGTCCCAAACATTTCTCCCCTATGAAAAGAAGGAGAGAAATTTACCAGATCGGTTAATACCTCTA
+CTAGATGAATCTATTCCTTACAATGAAAAACTCTTACAGCATTGTCATATTTTTGAATGGTCAGAACACCGAGTTTGA
+TCGTAACCGTTCAGAGGGGGGATAAAAGCGCGATTAGGGAGATCGGTCTACGTTTCGCCAATAGTTGTCGCCCTGTCA
+GCTCGTGCAGGGGATTTTACTGCTTAAATGACCTCGTTGCGATCTGCGTGCGCTCCGCGCAGCAGCGAAGCTATCGCC
+TGAATCAATAACTAGCAACTTGGTTACTTCTCATCCAATATCTGCTCCTCATCTGTTTGCAGTTGTAAATTGATTACA
+GGAATAAACACCTCACTCGTTGCTAGTAATTCGAGAGGCTGTGGAACACTCTCTGTTAGCACCGAGACAGGCGAACTA
+CTTTCCTCAACCTTGGGGCGGGTTACAACCAAAATCATTGCCGCTAACACCATGCCAGCGCCAATAAAATCGTGAGTC
+TCAAATGTCTCGCCCAGTAGCCAAAACGAGATAATTGCCGTCATCAATGGCTCCAGCGTTTGCAGGATTGCTGCTTCG
+GTAGCTGGAACCCAGCGTTGTCCGATCATTTCTATCCAGGTAAATACAATAGTATCAACTACCACTAGATAGATGAGA
+CCACTAAGATTGACACTGAGACTGGCAACAATCGCCTCAAAATGACCTGTCAGTTCGGGAGCTGCCCACAACAAACCT
+GCGACTGCTGGCACCCAAAATCCAACTGCAACGAGTTGCACAGTTGGATGACGTTGTACGAACTGCTCAATTGCTATT
+AAGAGAACTGAGTTGAACAGGGCGCAAAGGAGCAGCCAACCTGCGCCGTTAAGAGATTCTCCACTCCCCCAAAACATT
+ACCCCAATTCCGTTGAAGGCCAGTACGGCTCCTAGTATGGCTCTGAGAGCTATGCGCTTGCCCAACAGCAGATTGAAC
+AGCATCACAAAGATCGTGCTTAGTCCGAAGGTAAATGCCCCTCGGTTGGCAGAGAATGTCTCCAACCCAAAAGTCGCG
+CTAACATAGGTACCCAAAAACAACAGTCCCATGATTGCCCCATCACGCACTAGGCGGATATTCAGATTACGAAGGAAT
+GGGGCAAAAACTACAGCTGCCATTGTAAAGCGAACTGCCACTAGCACTTCTTTAGAGATGTGACTGATTAAACCTTTA
+GTAACTGGGAAGATTGAGCTATAGATTAGAGTTGCCAGAATAATCAACAGCACACCCAAAAGATATCGGTTATTTTCT
+GGGGCAGATGTTGTCATCTCAACCTTATCCAAGCTATTTTGGAGTTCTGTTAAATCTTGCTTTGGCATCTCAACTTCT
+AATAATAAAATAGGCTTAAAGAAGAATAGTAACAGACTTAACTTCTGGGAAGCACATTCGGTGGGGGTAGAAGAAATA
+CAGAAAATTAAACGTATGGGTCTACATAAATATTTATTTCGGTCGCGTCAAAGAATAGGTCGAATATGGACGCATTGA
+AAGACGGCATAGCAGTTTTTACATTCAGTAGACCGAAAACTTTTGAAAGTTGACGAAAGAATAAGGATTCCAGCCGTC
+GCTTTGTCGGCTGGCGATCGCAGACTCGACCCATGAGATCGATAACGCAGTTTGAAGTTTGAAAATACCTAAAATTAG
+GACTTGATTTTCATTTCTATACGTTCAGCAATGGGCATTAATTCACGGATCAAAGCCAAGTTTCCTAGATTCTGTCTC
+ATCCAATCTAATAAGAATTTTTCTCCTTCATCGAGATTACCCTCATCATCAATAAAAACCATTTTTTCGCACCAATCT
+ACAAATCCGGGATTAGTCATCTCATAGAGTAAAATGGTAGGAGCAAAGTGTGCGAATCCCAGGGATTCAATGACTTCC
+ATGCAAAGTAGCTTAAATACTTGTTCGTTTGTCAATTCAGCAGACATCAAGAATTTCCTCTTAATCAATTCTGTTTTC
+GATCGTACCACAGAATAATAACCCTTGGGCTTGAACACACATTATTCAGTTTCTGTCAATGCGTAAGTCCTAACTTAT
+TACTTGAGAGAGTTGCAGGGGCGTACCTCAGCTCGACCTGGGGAGCGATAGAAGAAAGGACGGCTTCAGTGACAGGTC
+TTTGACTAATGGTAGTTTCCACTTCAACTAAAACAGCATCACAAATGTCGAATGGTGATTGAGGAGATTTGTTCATAT
+TCATGTAGGTCAGAGCAGATTCCATCGGAGACATGGATGAATTATAAGCAGCGTTTTCAGCGTACCGACCTGTAAATA
+TATTCCCATGGGAATCTTTTAACGCTACCCCGGCAAAATTTTTCGTATAGGGAGCATAACTTTGATTGGCAGCGGATA
+AAGCAGCAAGGACAACATCATCGGTAGAACAAGTCTCCAGACCATGAAATACTGTTTCCATTAATCCACTCATGAGTC
+CAAGATTCGCTGGCCCAAATGCTTCGGGTAGAAAATGTGGGAGTCTATTTGAAGTATAAGTTTGCTCTATTTGTGTCT
+TGTTGGACTTCAAGAAAATCACAAAATCCTGATTTACAGTTGCCATCTCGTATAAAAACTGTCGGCAAGATCCACATG
+GCGCTTCATGGATTGCTAAGGCTTGCCAGCCTGTCTCTCCGTGCAACCACGCATTGATGGTAGCGGATTGTTCTGCGT
+GAACTGAGGTACTAAGTGCCTGCCCTATAAATTCCATATCGGCACCAAAATAAAGAGTTCCAGAATCCACCTGATTCT
+TAGATTTTGGTTTACCAAGAGCGATCGCCCCTACATAAAACTGCGATATTGGTACCCTAGCATAGGTTGCGGCCACGG
+GTAGTAACTGAATCATTAACGTACCAATATCAATCCCAAGTCGATCGAGCCAAGAGGCGACAACACTTGAGTCAATTA
+CAGCATGTTGGGCAAGAATTGTCCTTAACTCTGATTGAATGGAAAGTGGAACCTTGGCAATCGCCTGTTCTAATGTTA
+CATGGGTCATTTGGGTTATTTATCCTTGGGCAAGCATAAAATATATATCAATTTTTATGAATCAAATATGGCAAAAAA
+AACCCGGTTTCTTCCAAAAATCCTGGGCAAAGACGATCGAGGTATAGCAGAAACCGGGTTTTTGACTGTTAAGTACCT
+AAGCAAAATTAATTTCATACTCACCTCGCCTGAAATGCTTATCAAACGGTCATTCTAGGTTTTTAAAATGGGTAATTA
+ATTTGGCATAACTACTTAATACTGTGTTGGTGATTTTGGGCATGATTTTTATTTATTAGCACTTGCTAAACTATTATA
+TCATCAATATTTCAGATTATTTAATTTTTATTTTCATACCTTGATTCACCAACGCCAAATATTGGAATATTTGGCGTT
+GGGAAATGGTTTCCCCCTACTTACAAAGCAAAGCTTTCCTTTTTTGCAGCAAATCCCAAACGGCTTCGAGAGCTTTAA
+TTGCTTGGTCTATCTCCTCTTCGGTATTGGCAGCTGTAATCGAAAACCTCAAAGCAGTTTTATTTAAGGGTACTATGG
+GAAAAATAGCTGGAGTAATTAGAATACCATATTCCCAAAGAAGTTGACAGACATCAACTATATGTTGAGCATCTCCCA
+CTAACACGCTAACGATGGGAACGTAGCTGTAATTATCCACTTCAAATCCAATGGCTCTTGCTTGTGTAACCAGTTTAT
+GAGTTAGGTAATAAACTTGTTTTCTCAACTGCTCTCCTTCCTGACGATTCACCTGTAGTCCAGCTACGGCACTTGCCA
+AACTCGCAACAGGAGAAGGGCCAGAAAATATGGCAGTCCAAGCATTGCGGAATTGGGTTTTGATCTGGCTATTGCCAC
+AAGTTACAAATGCTGCGTAGGAGGAATAAGCTTTGGACAAACCAGCGACATAGATGATATTATCCTGTGCAAACCGCA
+GGTCAAAGTAATTAACGATCCCGTTGCCTTTATACCCGTAAGGCATATCGCTGCTAGGGTTTTCGCCCAAAATGCCAA
+AACCATGTGCATCATCAATGTAAATTAAAGCATTGTACTGTTTTGCCAGACGCACGTAAGCTGGCAGATCGGGAAGAT
+CTGCCGACATCGAATAAACGCCATCAATGGCAATAATCTTGACTTGCTCAAGCGGATATTTTGCTAGTTTTGCGGCTA
+AATCGTTCAAATCGTTATGTCGATATTGAATGAACTGGGCTCCTTTGTGCTGAGCCAGACAGCACGCTTCATAAATAC
+AACGATGTGCAGATATGTCACCAAAAATGACCCCATTATTCCCAGTTAATAGCGGTAACACTCCCATCTGAAGCAGCG
+TTAAAGATGGAAACAGCAAAACATCAGGTACGCCTAAAAGTTTGGCTAATTCTTCCTCTAACTCTTCATAGATTGCTG
+GGGAAGCAACAAGCCGAGTCCAGCTTGGATGTACGCCCCATTTTTCCAAAGCTGGTGGAATCGCTTCCTTAACTTTTG
+GATGCAAGTCAAGACCCAAATAGTTACAAGAAGCAAAGTCTATCACCCAATGTCCGTCAATTAGTACCTTGCGATCTT
+GTTGCTCTGTAACGACTCTTGTGACTTGAGGAATTTTTTGTTGGTTAACTACGTTTTCTAGAGTGTTGATTTCGTTGG
+CTGAGTCAACAGGTGAGGCTAGATCAGATTTTTTCTCTTGTACTACTTGGTTTTGGAAATAAGTTTGGAAATAAGTGA
+TGATAGCAGTTGGAGTATTATTTTGCAAAAAGAACGTCGAGAGAGACTCACCCCTAAACGTTCCTCTAGCAGCGTTTG
+CAGTTCTAATAGATCTAAAGAATCTAATCCCATATCCAGCAGTTTTTGTTTTGGAGCGTAAGCTGCTTGCCGTTGGGA
+ACCCAGCACCTTTAAAAAGCATTCTTTAACCAGAGCGGCTACAGTTTCGTTTTCCTTAGTTGCAGATGTTGCTGGCAA
+AGTTTGTACTGATGAACTAATTGCTGAGTTGGTATACAGCGGTTGGCGATCGCCAAGCGGGTGCAAAGCACTATCGCG
+CAGGTTATATTCAATCAAAATACCCATGCCGAAATTCTCTGCATCTTCCGGACGGTAATTAGCAATAATTCCCCTAAT
+TTTGGCTCCCCCCGACACATGGAACCGCACAATCGGATCTACAAGCTGCCGTTGCTCGTTGTGTAGCTTCAAGTACTC
+CGTCATCGGCATTTGGGAATAATTGACATAATTTCGACAGCGAGTTACGCCCACCACGCTCTCAATGCCGCCTTTCAA
+GGTACAGTAGTAGAGCATAAAATCCCGCAATTCATTTCCCAGCCCCTGCGCCTGAAACTCTGGCAAAATATTTAGTGC
+AAGCAGTTGAATAACTGACCCTTTGGGAGTATGTAACGACGGCACTTGCTCATATTTTACATTCTCTAATACCTCAAG
+GCTGGTAATTGTTTGGGAATAAATTGCACCAATAATTTTATCTTCTATAATTAGTACTAAATTACCCTGTGGGTTTAG
+CTCAATTCTTCGCCGAATTTCATTAGCAGATGCCTGTAAATGTTCTGGCCAACACTTGACCTCTAAGTTAACTAATGC
+AGGCAAATCTGACAAATAGGCATGACGAATTCTGTAAGGTCTTTTCTCAAAGTAATTAAGCGTAATGCGAGTCAAAGG
+AAACGTTTTTGGGTATCTTTTAGAAAGCTCTAATTTTGGAAATAGACCTACTTCTGCGGCAGACATAAGAAAAACGTC
+GGATTCCACAAGATACTGCTGAGAAAATCCCTGAAACGCATCGAAATGCAGATTTTCGGTTTTGTCTAAAAACTGATA
+AACTACCCTTGGTGCCAAACAATGAACTTCCAAAATCATTAAACCGTGTTTAGTAACCACTTGAGACCATCGTTCTAA
+GTGTTCTACCAAACTTTGCACCATAACATGAGGAGGAATAAGCTCTCCTTGACCATCGACACAGACCGCTTGGTAATG
+TAGGTGAGTACGCTCTTCCACTTCGTTCCTTTTCTTGGGAGGAATAAAGGGACGATCGTGGTCGAGGAACGAACGGAT
+GTGCAGGATATTTTCGGGATCGTGAATGCCATGAGCCTTTAAAGAACGCACCATTTGTTCTGGGTTTCCAATATCTCC
+CTGCAAAACTAAATGGGGAAGGCCAGCAAGGGTGCGTGTGGTAGCTGTTAAAGAAGCTTCGTTATAATCTACACCTAT
+AAGACGCAGGGGATACTGTTCGATCGCTTTTCCCCTAGCAGACTTGAATCGAATGGTTTCCCAGACTCGTTTCAGGAG
+AGTTCCATCGCCACACCCCATATCAGTAATGTATTTGGGTTGTTCTTCCAATGGCAACTGATTGAATACTGAGAGGAT
+ACTTTCTTCTAAATCGGCAAAATATTTCTGGTGTTGAAATCCACTCCCCATCACGTTGAGGGTACGATCGATGTGGCT
+TTCGTGACCGGAAGCATTTCTTTGGAATACTGAAAGACAATCGCCAAACAGTACATCATAAATGCGAGACAACATAGG
+GCTGTAGGAAGCCACTACGGCAGTATTCAAAGCTCGCTCCCCCATAAATCGACCGAGTTCGGTTAGAGTCAGACGACC
+TGCTTTAAGATCAACCCAGTCAAGGTGGACAAATAACTTGCCTAACTCTTCTTGCACTGTTCCGCTTAATGAGGAGAG
+AAAGGGTTTCTCTTCCGACTCTGCGAGCAAGTTGTGTTTGTGGAGTGTCAGCAGGAGTGGGATCAGCAGTAGTCCATC
+TAAAAAATCTGCTATTAAGGGATTATCCAGATTCCACAGTTGGCAAGAACGCTCAATCCATTTTTCGAGCAACTTTCC
+CTGTTTTCCCTGTAAATAAGACTCAATTGGCAGGTGGTACAACTGGAGAACGTCTTCCGGAATTTGGTTGTGAATCGC
+TGCTTCTGAGGTCAGATAATATTTAAGATACTCATTTCGAGAAAGCCAATGTAAAGATTCGAGCATCCTCAAAGCAAC
+TTGGAAATGTCCGCTGTTAGCTCCCAGATGCTTGACCATTTGCTCTTGGGAAAGAGGACTTTCATGGGTAAGTAGCTC
+GAAAAGACCTTTTTTTCGACAAGCGAGAATCACTGGAACAGCAACCAAGCCGTGGGTATAACGATTAATCTTTTGTAG
+CATTTAGATACATGTTACCAGCGCATGAGGTGTCTATGATTACCATACAAAACATTTTTTATCATAGTTTTTATGAAA
+AAGCAACAGGACTAAAGCCCCTGTCACATGCGTACGCATACACACGATCTGGTTAGCCTGGTCTTGACAAAAAGGCTA
+TTTACTGCATCGAGTTCTATGATAATGAT" } } ,
+        seq {
+          id {
+            local
+              str "samp_7308_4255520_1" } ,
+          descr {
+            title "hypothetical protein AFIDOGJE_00001 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 92 ,
+            seq-data
+              ncbieaa "MAHVFPVATLACLSALGLTVVNALAVENVRSEYLVLLFRHIRLASLTLTFQIRST
+LSTSAIRCCLHQSVRSSSNPRSAFQGILKRSIDIKDD" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 10 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 91 ,
+                        id
+                          local
+                            str "samp_7308_4255520_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "samp_7308_4255520_2" } ,
+          descr {
+            title "Inosamine-phosphate amidinotransferase 1 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 377 ,
+            seq-data
+              ncbieaa "MTSQNNQELENKLPIAKQPCPVNSYNEWDALEEVIVGSVEGAMLPALEPINKWTF
+PLEELESAQKVLSETGGIPYPPEMIAVAHKELNEFIHILEAEGVKVRRVKPVDFSASFSTPAWQVRSGFCAANPRDVF
+LVIGNEIIEVPMADRNRYFEAWAYRDLLKEYFQAGAKWTAAPKPQLFDAQYDFNFQFPQTGEPSRFVITEFEPTFDAA
+DFVRCGRDIFGQKSHVTNSLGIEWLQRHLEDEYRIHIIESQCPEALHIDTTLMPLAPGKILVNPEFVDVNKLPKILKS
+WDILVAPYPNHIPQNQLRLVSEWAGLNVLMLDEERVIVEKKQEPMIKALKDWGFKPIVCSFESYYPFLGSFHCATLDV
+RRRGTLQSYF" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 11 ,
+                    data
+                      prot {
+                        name {
+                          "Inosamine-phosphate amidinotransferase 1" } ,
+                        ec {
+                          "2.1.4.2" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 376 ,
+                        id
+                          local
+                            str "samp_7308_4255520_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "samp_7308_4255520_3" } ,
+          descr {
+            title "Multidrug resistance protein NorM [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 478 ,
+            seq-data
+              ncbieaa "MTNTQRGLAEITSTGYKSELISEARASLQLAIPLVISQMCETGINVVNVVMMGLL
+GTQVLAGGALGAIAFLTLLATCYGILLSGGAIAAEAFGANNIDQLRRIASGQIWLVVALSLPAMFLLWHTDTILLLFG
+QEESNVLLAKIYLQTIVWGFPAALGVMILRGIASAVNVPRLITVTMLAGLVLNAPADYVLMFGKFGLPQLGLAGIAWA
+TALVFWLSFIVGVILLIFYPKVRDYKLFCYWHQFDRQTFVKIFQTGWPMGFQWGAESALLSVSAGLAGYLGTVTLAAH
+EMALETVEMAMVIPLGIGNVAITRVGQTMGEKNPLGAKRAALIGITIGSIYASAVAFIFWLFPYQIAGIYLDINNPEN
+IEAVKTATSFLILAGLFQLFYSIQVIIVGALVGLQDTLVPVLMNLGGWGIGLTGSYCMGIILGWGGMGIWLGMVLSPL
+LSGVILIARFYQAIGKKIANSDDGEESIQAFIS" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 12 ,
+                    data
+                      prot {
+                        name {
+                          "Multidrug resistance protein NorM" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 477 ,
+                        id
+                          local
+                            str "samp_7308_4255520_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "samp_7308_4255520_4" } ,
+          descr {
+            title "hypothetical protein AFIDOGJE_00004 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 271 ,
+            seq-data
+              ncbieaa "MWACPRSRSTVITRAFENLDGCIVYDEPLLAPYVFMTTYTTSKSRTLEEENLKQL
+LAQNNFETDIKKVIEKITGNLPDGKLFSFQKMITGDYRYEFGIDWAKKLTNFFLIRHPQDIILSLDIAEKRSGITDPF
+TQQMVGMKTLYQIFQQIEVITGQIPLVIHSDDIIKNPPSALQWLCKNLEIAFDKRMLTWKANLEDSNYLLYPQLYGNS
+ALSSSEPWYETLRSSQTFLPYEKKERNLPDRLIPLLDESIPYNEKLLQHCHIFEWSEHRV" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 13 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 270 ,
+                        id
+                          local
+                            str "samp_7308_4255520_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "samp_7308_4255520_5" } ,
+          descr {
+            title "hypothetical protein AFIDOGJE_00005 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 352 ,
+            seq-data
+              ncbieaa "MPKQDLTELQNSLDKVEMTTSAPENNRYLLGVLLIILATLIYSSIFPVTKGLISH
+ISKEVLVAVRFTMAAVVFAPFLRNLNIRLVRDGAIMGLLFLGTYVSATFGLETFSANRGAFTFGLSTIFVMLFNLLLG
+KRIALRAILGAVLAFNGIGVMFWGSGESLNGAGWLLLCALFNSVLLIAIEQFVQRHPTVQLVAVGFWVPAVAGLLWAA
+PELTGHFEAIVASLSVNLSGLIYLVVVDTIVFTWIEMIGQRWVPATEAAILQTLEPLMTAIISFWLLGETFETHDFIG
+AGMVLAAMILVVTRPKVEESSSPVSVLTESVPQPLELLATSEVFIPVINLQLQTDEEQILDEK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 14 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 351 ,
+                        id
+                          local
+                            str "samp_7308_4255520_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "samp_7308_4255520_6" } ,
+          descr {
+            title "hypothetical protein AFIDOGJE_00006 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 94 ,
+            seq-data
+              ncbieaa "MSAELTNEQVFKLLCMEVIESLGFAHFAPTILLYEMTNPGFVDWCEKMVFIDDEG
+NLDEGEKFLLDWMRQNLGNLALIRELMPIAERIEMKIKS" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 15 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 93 ,
+                        id
+                          local
+                            str "samp_7308_4255520_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "samp_7308_4255520_7" } ,
+          descr {
+            title "Cytidine deaminase [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 322 ,
+            seq-data
+              ncbieaa "MTHVTLEQAIAKVPLSIQSELRTILAQHAVIDSSVVASWLDRLGIDIGTLMIQLL
+PVAATYARVPISQFYVGAIALGKPKSKNQVDSGTLYFGADMEFIGQALSTSVHAEQSATINAWLHGETGWQALAIHEA
+PCGSCRQFLYEMATVNQDFVIFLKSNKTQIEQTYTSNRLPHFLPEAFGPANLGLMSGLMETVFHGLETCSTDDVVLAA
+LSAANQSYAPYTKNFAGVALKDSHGNIFTGRYAENAAYNSSMSPMESALTYMNMNKSPQSPFDICDAVLVEVETTISQ
+RPVTEAVLSSIAPQVELRYAPATLSSNKLGLTH" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 16 ,
+                    data
+                      prot {
+                        name {
+                          "Cytidine deaminase" } ,
+                        ec {
+                          "3.5.4.5" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 321 ,
+                        id
+                          local
+                            str "samp_7308_4255520_7" } } } } } } ,
+        seq {
+          id {
+            local
+              str "samp_7308_4255520_8" } ,
+          descr {
+            title "8-amino-7-oxononanoate synthase/2-amino-3-ketobutyrate
+ coenzyme A ligase [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 373 ,
+            seq-data
+              ncbieaa "MIDFASCNYLGLDLHPKVKEAIPPALEKWGVHPSWTRLVASPAIYEELEEELAKL
+LGVPDVLLFPSLTLLQMGVLPLLTGNNGVIFGDISAHRCIYEACCLAQHKGAQFIQYRHNDLNDLAAKLAKYPLEQVK
+IIAIDGVYSMSADLPDLPAYVRLAKQYNALIYIDDAHGFGILGENPSSDMPYGYKGNGIVNYFDLRFAQDNIIYVAGL
+SKAYSSYAAFVTCGNSQIKTQFRNAWTAIFSGPSPVASLASAVAGLQVNRQEGEQLRKQVYYLTHKLVTQARAIGFEV
+DNYSYVPIVSVLVGDAQHIVDVCQLLWEYGILITPAIFPIVPLNKTALRFSITAANTEEEIDQAIKALEAVWDLLQKR
+KALLCK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 17 ,
+                    data
+                      prot {
+                        name {
+                          "8-amino-7-oxononanoate
+ synthase/2-amino-3-ketobutyrate coenzyme A ligase" } ,
+                        ec {
+                          "2.3.1.29" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 372 ,
+                        id
+                          local
+                            str "samp_7308_4255520_8" } } } } } } ,
+        seq {
+          id {
+            local
+              str "samp_7308_4255520_9" } ,
+          descr {
+            title "hypothetical protein AFIDOGJE_00009 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 818 ,
+            seq-data
+              ncbieaa "MLQKINRYTHGLVAVPVILACRKKGLFELLTHESPLSQEQMVKHLGANSGHFQVA
+LRMLESLHWLSRNEYLKYYLTSEAAIHNQIPEDVLQLYHLPIESYLQGKQGKLLEKWIERSCQLWNLDNPLIADFLDG
+LLLIPLLLTLHKHNLLAESEEKPFLSSLSGTVQEELGKLFVHLDWVDLKAGRLTLTELGRFMGERALNTAVVASYSPM
+LSRIYDVLFGDCLSVFQRNASGHESHIDRTLNVMGSGFQHQKYFADLEESILSVFNQLPLEEQPKYITDMGCGDGTLL
+KRVWETIRFKSARGKAIEQYPLRLIGVDYNEASLTATTRTLAGLPHLVLQGDIGNPEQMVRSLKAHGIHDPENILHIR
+SFLDHDRPFIPPKKRNEVEERTHLHYQAVCVDGQGELIPPHVMVQSLVEHLERWSQVVTKHGLMILEVHCLAPRVVYQ
+FLDKTENLHFDAFQGFSQQYLVESDVFLMSAAEVGLFPKLELSKRYPKTFPLTRITLNYFEKRPYRIRHAYLSDLPAL
+VNLEVKCWPEHLQASANEIRRRIELNPQGNLVLIIEDKIIGAIYSQTITSLEVLENVKYEQVPSLHTPKGSVIQLLAL
+NILPEFQAQGLGNELRDFMLYYCTLKGGIESVVGVTRCRNYVNYSQMPMTEYLKLHNEQRQLVDPIVRFHVSGGAKIR
+GIIANYRPEDAENFGMGILIEYNLRDSALHPLGDRQPLYTNSAISSSVQTLPATSATKENETVAALVKECFLKVLGSQ
+RQAAYAPKQKLLDMGLDSLDLLELQTLLEERLGVSLSRRSFCKIILQLLSSLISKLISKTK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 18 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 817 ,
+                        id
+                          local
+                            str "samp_7308_4255520_9" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "samp_7308_4255520_1" ,
+                location
+                  int {
+                    from 11 ,
+                    to 289 ,
+                    strand plus ,
+                    id
+                      local
+                        str "samp_7308_4255520" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "AFIDOGJE_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "samp_7308_4255520_2" ,
+                location
+                  int {
+                    from 1007 ,
+                    to 2140 ,
+                    strand minus ,
+                    id
+                      local
+                        str "samp_7308_4255520" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P08078" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "strB1" ,
+                        locus-tag "AFIDOGJE_00002" } } } ,
+                dbxref {
+                  {
+                    db "COG" ,
+                    tag
+                      str "COG1834" } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "samp_7308_4255520_3" ,
+                location
+                  int {
+                    from 2226 ,
+                    to 3662 ,
+                    strand minus ,
+                    id
+                      local
+                        str "samp_7308_4255520" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:O82855" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "norM" ,
+                        locus-tag "AFIDOGJE_00003" } } } ,
+                dbxref {
+                  {
+                    db "COG" ,
+                    tag
+                      str "COG0534" } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "samp_7308_4255520_4" ,
+                location
+                  int {
+                    from 4387 ,
+                    to 5202 ,
+                    strand plus ,
+                    id
+                      local
+                        str "samp_7308_4255520" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "AFIDOGJE_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "samp_7308_4255520_5" ,
+                location
+                  int {
+                    from 5382 ,
+                    to 6440 ,
+                    strand minus ,
+                    id
+                      local
+                        str "samp_7308_4255520" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "AFIDOGJE_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "samp_7308_4255520_6" ,
+                location
+                  int {
+                    from 6759 ,
+                    to 7043 ,
+                    strand minus ,
+                    id
+                      local
+                        str "samp_7308_4255520" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "AFIDOGJE_00006" } } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "samp_7308_4255520_7" ,
+                location
+                  int {
+                    from 7130 ,
+                    to 8098 ,
+                    strand minus ,
+                    id
+                      local
+                        str "samp_7308_4255520" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:Q9KSM5" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "cdd" ,
+                        locus-tag "AFIDOGJE_00007" } } } ,
+                dbxref {
+                  {
+                    db "COG" ,
+                    tag
+                      str "COG0295" } } } ,
+              {
+                id
+                  local
+                    id 8 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "samp_7308_4255520_8" ,
+                location
+                  int {
+                    from 8495 ,
+                    to 9616 ,
+                    strand minus ,
+                    id
+                      local
+                        str "samp_7308_4255520" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:Q5SHZ8" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "AFIDOGJE_00008" } } } ,
+                dbxref {
+                  {
+                    db "COG" ,
+                    tag
+                      str "COG0156" } } } ,
+              {
+                id
+                  local
+                    id 9 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "samp_7308_4255520_9" ,
+                location
+                  int {
+                    from 9769 ,
+                    to 12225 ,
+                    strand minus ,
+                    id
+                      local
+                        str "samp_7308_4255520" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "AFIDOGJE_00009" } } } } } } } } ,
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 11 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 18 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2025 } } } ,
+        create-date
+          std {
+            year 2025 ,
+            month 11 ,
+            day 18 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "samp_7308_4410053" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 789 ,
+            seq-data
+              iupacna "CGTGCTTCTGATATAAGCTCTGACTTATATCCTGTTGATGTTATTTCTGCTAATC
+CTCTTTGGGTATTTGTCATATCTCCTATCTTGCGCCTATTTAATACACTCAATGCAACTGAAATTAACAAACACCATA
+AGTAACGCCTAGTTCCTTTAGCCATCGACGATAGGCAACTGTGCCTCGATCTGATGGGACATGTATTTCCTGTGGCAA
+CCCTTGCGTGTTTATCTGCTTTGGGGATAACAGTGGTAAACGCGTTGGCTGTTGGGAATGTAGGATCGGAATATCTTG
+TTCTATTGTTTCGTCAAATTCGGCTAGTAGCGTTGACTCCAAGATTTCAGGGCAGTTCCACGTTACCAACATCCGCAC
+TAAGCTGTTGTCTTCATCAATCGGTGTTACCAGCATCAAATCCGCCGTCCGAATTTCAGAGGATTCCGTAATGTAGTA
+TTGACATAAAGGATGACTCATCCTTTGCCAAAGAGTCCATGAGTCATCTTTGATACTGCTGTTGAACCTTGGCATCTG
+GAGTTGAAGGTTACCTATGGTAATGCCATCTTTGTCTACTTTTACCTCAAAGTCTTCAATTTCTGCGTAGTTGCCATC
+GCCTAACCCGCCGTCGTGGACAAAAGGAAAATGAGATATATCTATGAAATTATCCATCACACGAAACGGACTAGATTT
+AATCAAGTACGACCTAGTACAAGTCTTGTGATAATTCGGATCGTCCCATTCGGGAAACGAAGGTATATCATTAACAGG
+GTTCCCTAAGCACACCCACACTAAGCCGTAGC" } } ,
+        seq {
+          id {
+            local
+              str "samp_7308_4410053_1" } ,
+          descr {
+            title "putative methylxanthine N7-demethylase NdmC [Genus
+ species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 219 ,
+            seq-data
+              ncbieaa "MWVCLGNPVNDIPSFPEWDDPNYHKTCTRSYLIKSSPFRVMDNFIDISHFPFVHD
+GGLGDGNYAEIEDFEVKVDKDGITIGNLQLQMPRFNSSIKDDSWTLWQRMSHPLCQYYITESSEIRTADLMLVTPIDE
+DNSLVRMLVTWNCPEILESTLLAEFDETIEQDIPILHSQQPTRLPLLSPKQINTQGLPQEIHVPSDRGTVAYRRWLKE
+LGVTYGVC" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 20 ,
+                    data
+                      prot {
+                        name {
+                          "putative methylxanthine N7-demethylase NdmC" } ,
+                        ec {
+                          "1.14.13.128" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 218 ,
+                        id
+                          local
+                            str "samp_7308_4410053_1" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 19 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "samp_7308_4410053_1" ,
+                location
+                  int {
+                    from 118 ,
+                    to 777 ,
+                    strand minus ,
+                    id
+                      local
+                        str "samp_7308_4410053" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:F0E1K6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "AFIDOGJE_00010" } } } } } } } } } }

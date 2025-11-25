@@ -1,0 +1,133 @@
+LOCUS       samp_7305_637441         764 bp    DNA     linear       18-NOV-2025
+DEFINITION  Genus species strain strain.
+ACCESSION   
+VERSION
+KEYWORDS    .
+SOURCE      Genus species
+  ORGANISM  Genus species
+            Unclassified.
+COMMENT     Annotated using prokka 1.14.6 from
+            https://github.com/tseemann/prokka.
+FEATURES             Location/Qualifiers
+     source          1..764
+                     /organism="Genus species"
+                     /mol_type="genomic DNA"
+                     /strain="strain"
+     CDS             complement(197..736)
+                     /locus_tag="OLLKPBJB_00001"
+                     /EC_number="1.14.13.128"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:F0E1K6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative methylxanthine N7-demethylase NdmC"
+                     /translation="MDNSLDVAHFPFIHEGILGDRNHAEVEDLEVKVDKDGLTMGKYQ
+                     VHTSKFNNSTKDDSMVNWFRLSHPLCQYCSTEASEMRTVDLMVVTPIDEDNSVLRYLI
+                     MWNGSKTLESKILADYDQVIEEDIRILHSQQPTRLPLLSPKQINTQGLPQEIHVPSDR
+                     CTVAYRRWLKELGVTYGVC"
+ORIGIN      
+        1 ttcgcatatt tcgacaacga ctaaggggat tgccaattgt aggctaactc gtgcttctga
+       61 tataagctct gacttatatc ctgttgatgt tatttctgct aatccgcttt gggtatttgt
+      121 catatctcag ctttagaatt agtactatgt gtcttacttt tttcgcgcct attcaataca
+      181 ctcaatgcaa ctgaaattaa caaacaccat aagtaacgcc cagttccttt agccatcgac
+      241 gataggcaac tgtacatcga tctgatggca catgtatttc ctgtggcaac ccttgcgtgt
+      301 ttatctgctt tggggataac agtggtaaac gcgttggctg ttgggaatgt aggatccgaa
+      361 tatcttcttc tattacttgg tcataatcgg ctagtatctt ggactctaac gttttagaac
+      421 cgttccacat tatcaaataa cgcaacacgc tgttgtcttc atcaatcggt gttaccacca
+      481 ttaaatccac cgtccgcatt tcagaagctt ccgtactaca gtattgacat aaaggatgac
+      541 taagcctgaa ccaattaacc attgagtcat ctttagtact attgttgaac tttgatgtat
+      601 gtacttgata cttacccatg gtaagaccat ctttgtctac tttcacctca aggtcttcaa
+      661 cttctgcatg attgcgatcg cctaagatcc cctcgtggat aaaaggaaaa tgagctacat
+      721 ctaaggaatt atccatcaca cgaaacggac taactttaat caag
+//
+LOCUS       samp_7305_1519975        700 bp    DNA     linear       18-NOV-2025
+DEFINITION  Genus species strain strain.
+ACCESSION   
+VERSION
+KEYWORDS    .
+SOURCE      Genus species
+  ORGANISM  Genus species
+            Unclassified.
+COMMENT     Annotated using prokka 1.14.6 from
+            https://github.com/tseemann/prokka.
+FEATURES             Location/Qualifiers
+     source          1..700
+                     /organism="Genus species"
+                     /mol_type="genomic DNA"
+                     /strain="strain"
+     CDS             54..620
+                     /locus_tag="OLLKPBJB_00002"
+                     /EC_number="1.14.13.128"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:F0E1K6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative methylxanthine N7-demethylase NdmC"
+                     /translation="MIKSSPFRVMDNFIDISHFPFVHDGGLGDGNYAEIEDFEVKVDK
+                     DGITIGNLQLQMPRFNSSIKDDSWTLWQRMSHPLCQYYITESSEIRTADLMLVTPIDE
+                     DNSLVRMLVTWNCPEILESTLLAEFDETIEQDIPILHSQQPTRLPLLSPKQINTQGLP
+                     QEIHVPSDRCTVAYRRWLKELGVTYGVC"
+ORIGIN      
+        1 cgttccccga atgggacgat ccgaattatc acaagacttg tactaggtcg tacttgatta
+       61 aatctagtcc gtttcgtgtg atggataatt tcatagatat atctcatttt ccttttgtcc
+      121 acgacggcgg gttaggcgat ggcaactacg cagaaattga agactttgag gtaaaagtag
+      181 acaaagatgg cattaccata ggtaaccttc aactccagat gccaaggttc aacagcagta
+      241 tcaaagatga ctcatggact ctttggcaaa ggatgagtca tcctttatgt caatactaca
+      301 ttacggaatc ctctgaaatt cggacggcgg atttgatgct ggtaacaccg attgatgaag
+      361 acaacagctt agtgcggatg ttggtaacgt ggaactgccc tgaaatcttg gagtcaacgc
+      421 tactagccga atttgacgaa acaatagaac aagatattcc gatcctacat tcccaacagc
+      481 caacgcgttt accactgtta tccccaaagc agataaacac gcaagggttg ccacaggaaa
+      541 tacatgtccc atcagatcga tgcacagttg cctatcgtcg atggctaaag gaactaggcg
+      601 ttacttatgg tgtttgttaa tttcagttgc attgagtgta ttaaataggc gcaagatagg
+      661 agatatgaca aatacccaaa gaggattagc agaaataaca
+//
+LOCUS       samp_7305_5792258       1131 bp    DNA     linear       18-NOV-2025
+DEFINITION  Genus species strain strain.
+ACCESSION   
+VERSION
+KEYWORDS    .
+SOURCE      Genus species
+  ORGANISM  Genus species
+            Unclassified.
+COMMENT     Annotated using prokka 1.14.6 from
+            https://github.com/tseemann/prokka.
+FEATURES             Location/Qualifiers
+     source          1..1131
+                     /organism="Genus species"
+                     /mol_type="genomic DNA"
+                     /strain="strain"
+     CDS             74..889
+                     /gene="ndmA"
+                     /locus_tag="OLLKPBJB_00003"
+                     /EC_number="1.14.13.178"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:H9N289"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Methylxanthine N1-demethylase NdmA"
+                     /translation="MGEIANNTLVCPYHGWRYNEAGKCVKIPAHPDMVPPASAQAKTY
+                     HCQERYGLVWVCLGDPVNDIPSFPEWNDPNYHKTYTKSYLIQASPFRVMDNSIDVSHF
+                     PFIHDGWLGDRNYTKVEDFEVKVDKDGLTMGKYQFQTSRIVSHIEDDSWVNWFRLSHP
+                     LCQYCVSESPEMRIVDLMTIAPIDEDNSVLRMLIMWNGSEMLESKMLTEYDETIEQDI
+                     RILHSQQPARLPLLAPKQINTQGLPQEIHVPSDRGTVAYRRWLKELGVTYGVC"
+ORIGIN      
+        1 gcgcagttat gaacagaatt cacccataca ggtatggcaa gactactgcc cccaccgagg
+       61 tgttcctctg tcgatgggag aaattgcgaa taatactttg gtttgtccgt atcacggatg
+      121 gagatacaat gaagctggta aatgcgtaaa gatcccggct caccctgaca tggtaccccc
+      181 agcaagtgcc caagccaaaa cctatcattg ccaggaacgc tacggcttag tgtgggtgtg
+      241 cttaggggac cctgttaatg atataccttc gttccccgaa tggaacgatc cgaattatca
+      301 caagacttat acgaagtcgt acttgattca agctagtccg tttcgtgtga tggataattc
+      361 catagatgta tctcattttc cttttatcca tgacggttgg ttaggcgatc gcaattatac
+      421 aaaagtggaa gactttgagg tgaaagtaga taaagatggt cttactatgg gtaagtatca
+      481 attccagaca tcaaggattg tcagccatat cgaagatgac tcatgggtta attggttcag
+      541 gcttagtcat cctttatgtc aatactgcgt ttcagaatcc cctgaaatgc ggatcgtgga
+      601 tttgatgacg atcgcaccga ttgatgaaga caacagcgta ttgcggatgt tgataatgtg
+      661 gaacggatct gaaatgttag agtcaaagat gctaaccgaa tatgacgaaa caatagaaca
+      721 agatattcgg atcttacatt ctcaacagcc agcgcgttta ccactgttag ccccaaagca
+      781 gataaacacg caagggttgc cacaggaaat acatgtgcca tcagatcgag gcacagttgc
+      841 ctatcgtcga tggctaaaag aactaggtgt cacttatggt gtttgttaac ttcagttgaa
+      901 tggcactaag aaaacccaaa gtgcttacaa aataagcact tcaagctttt gtatataaaa
+      961 attacaaaaa aaaatcaagt acaaaacgca cttgttacat atcgcacgag caaaacgaaa
+     1021 agaaggagtg actgatggca ggtaaattgg atggaaaagt agcgattatt actggtgctt
+     1081 cctctggtat tggagaggct acagcatttg ccttagctgc ggagggggca a
+//

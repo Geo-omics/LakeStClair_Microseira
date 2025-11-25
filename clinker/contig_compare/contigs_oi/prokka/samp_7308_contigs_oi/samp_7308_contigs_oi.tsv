@@ -1,0 +1,11 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+AFIDOGJE_00001	CDS	279				hypothetical protein
+AFIDOGJE_00002	CDS	1134	strB1	2.1.4.2	COG1834	Inosamine-phosphate amidinotransferase 1
+AFIDOGJE_00003	CDS	1437	norM		COG0534	Multidrug resistance protein NorM
+AFIDOGJE_00004	CDS	816				hypothetical protein
+AFIDOGJE_00005	CDS	1059				hypothetical protein
+AFIDOGJE_00006	CDS	285				hypothetical protein
+AFIDOGJE_00007	CDS	969	cdd	3.5.4.5	COG0295	Cytidine deaminase
+AFIDOGJE_00008	CDS	1122		2.3.1.29	COG0156	8-amino-7-oxononanoate synthase/2-amino-3-ketobutyrate coenzyme A ligase
+AFIDOGJE_00009	CDS	2457				hypothetical protein
+AFIDOGJE_00010	CDS	660		1.14.13.128		putative methylxanthine N7-demethylase NdmC

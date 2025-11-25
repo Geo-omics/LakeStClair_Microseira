@@ -1,0 +1,180 @@
+>Feature samp_7306_1433330
+116	331	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00001
+			product	hypothetical protein
+992	1807	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00002
+			product	hypothetical protein
+3045	1987	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00003
+			product	hypothetical protein
+3648	3364	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00004
+			product	hypothetical protein
+4703	3735	CDS
+			EC_number	3.5.4.5
+			db_xref	COG:COG0295
+			gene	cdd
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9KSM5
+			locus_tag	HLMGHEDE_00005
+			product	Cytidine deaminase
+8831	5100	CDS
+			EC_number	2.3.1.47
+			gene	bioF
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01693
+			locus_tag	HLMGHEDE_00006
+			product	8-amino-7-oxononanoate synthase
+9169	8930	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00007
+			product	hypothetical protein
+>Feature samp_7306_2314184
+530	201	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00008
+			product	hypothetical protein
+1125	523	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00009
+			product	hypothetical protein
+2061	2423	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00010
+			product	hypothetical protein
+3147	2572	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00011
+			product	hypothetical protein
+3330	3154	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00012
+			product	hypothetical protein
+3715	5304	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00013
+			product	hypothetical protein
+5715	5437	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00014
+			product	hypothetical protein
+6119	6895	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00015
+			product	hypothetical protein
+6906	7682	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00016
+			product	hypothetical protein
+7658	8404	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00017
+			product	hypothetical protein
+8639	9439	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00018
+			product	hypothetical protein
+9527	10531	CDS
+			EC_number	1.14.13.179
+			gene	ndmB_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:H9N290
+			locus_tag	HLMGHEDE_00019
+			product	Methylxanthine N3-demethylase NdmB
+10677	11423	CDS
+			EC_number	1.-.-.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7A3L9
+			locus_tag	HLMGHEDE_00020
+			product	putative oxidoreductase
+11853	13376	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00021
+			product	hypothetical protein
+13574	15253	CDS
+			EC_number	1.4.3.16
+			db_xref	COG:COG0029
+			gene	nadB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8ZMX9
+			locus_tag	HLMGHEDE_00022
+			product	L-aspartate oxidase
+15267	15593	CDS
+			EC_number	1.97.1.-
+			gene	cutD
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02059
+			locus_tag	HLMGHEDE_00023
+			product	Choline trimethylamine-lyase activating enzyme
+15757	16530	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00024
+			product	hypothetical protein
+17434	16622	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00025
+			product	hypothetical protein
+19398	17887	CDS
+			db_xref	COG:COG0534
+			gene	norM_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O82855
+			locus_tag	HLMGHEDE_00026
+			product	Multidrug resistance protein NorM
+20080	19472	CDS
+			EC_number	1.14.13.128
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:F0E1K6
+			locus_tag	HLMGHEDE_00027
+			product	putative methylxanthine N7-demethylase NdmC
+20475	20035	CDS
+			EC_number	1.14.13.239
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02097
+			locus_tag	HLMGHEDE_00028
+			product	Carnitine monooxygenase oxygenase subunit
+21611	20703	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HLMGHEDE_00029
+			product	hypothetical protein
+23057	21861	CDS
+			EC_number	2.3.1.-
+			gene	oatA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7A3D6
+			locus_tag	HLMGHEDE_00030
+			product	O-acetyltransferase OatA
+24184	23114	CDS
+			EC_number	2.1.3.12
+			gene	novN
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9L9F4
+			locus_tag	HLMGHEDE_00031
+			product	Decarbamoylnovobiocin carbamoyltransferase
+25713	24172	CDS
+			db_xref	COG:COG0534
+			gene	norM_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O82855
+			locus_tag	HLMGHEDE_00032
+			product	Multidrug resistance protein NorM
+26678	25674	CDS
+			EC_number	1.14.13.179
+			gene	ndmB_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:H9N290
+			locus_tag	HLMGHEDE_00033
+			product	Methylxanthine N3-demethylase NdmB
+27871	26738	CDS
+			EC_number	2.1.4.2
+			db_xref	COG:COG1834
+			gene	strB1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P08078
+			locus_tag	HLMGHEDE_00034
+			product	Inosamine-phosphate amidinotransferase 1
