@@ -57,10 +57,10 @@ StudyID_SC <- c("set_82")
 #Import metadata table and filter to only include StudyID of interest 
   #*PICK ONE a or b*
   #a.) If working within GLAMR 
-  GLAMR_sample_table <- glamr_samples_pg 
+  #GLAMR_sample_table <- glamr_samples_pg 
 
   #b.) If working in Github repo
-  #GLAMR_sample_table <- read_csv(file = "data/notebook1/Great_Lakes_Omics_Datasets_4Sept2025.csv")
+  GLAMR_sample_table <- read_csv(file = "data/notebook1/Great_Lakes_Omics_Datasets_4Sept2025.csv")
 
 
 GLAMR_sample_table_SC <- GLAMR_sample_table %>% 
@@ -199,7 +199,7 @@ bins_oi_gtdb_checkM <- left_join(bins_oi_gtdb, checkM, by = "bin") %>%
 #completness: 98.22
 #contamination: 1.78
 #strain heterogeneity: 0.00
-#A reevaluation of gtdb taxonomy with GTDB release R226 reference database changes taxonomic assignment to Microseira; analysis present in: /geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/LakeStClair_Microseira/gtdbtk/output
+#A reevaluation of gtdb taxonomy with GTDB release R226 reference database changes taxonomic assignment to Microseira; analysis present in: LakeStClair_Microseira/gtdbtk/output
 
 ##write.csv(bins_oi_gtdb_checkM, file = "data/notebook1/bins_from_blastn_cyanotoxin_assemblies_results.csv")
 
@@ -343,7 +343,7 @@ assembly_paths_clinker <- tibble(sample = GLAMR_assemblies_sxt_hits$SampleID) %>
                 distinct(.)
 
 #symbolic link read_paths
-file.symlink(assembly_paths_clinker$read_path, assembly_paths_clinker$new_path)
+##file.symlink(assembly_paths_clinker$read_path, assembly_paths_clinker$new_path)
 
 ##################
 #Extract contigs#
