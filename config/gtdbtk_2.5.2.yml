@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - gtdbtk=2.5.2
+  - tqdm=4.67.1
+  - pydantic<2
+  - python=3.9

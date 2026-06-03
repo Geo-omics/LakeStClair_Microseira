@@ -1,0 +1,44 @@
+{
+    "version": "2.5.2",
+    "command_line": "gtdbtk classify_wf --extension fa --genome_dir gtdbtk --out_dir gtdbtk/output --cpus 30",
+    "database_version": "r226",
+    "database_path": "/geomicro/data2/pdenuyl2/databases/gtdbtk/release226",
+    "steps": [
+        {
+            "name": "ANI screen",
+            "output_dir": "gtdbtk/output",
+            "starts_at": "2025-12-10T12:23:12.376245",
+            "ends_at": "2025-12-10T12:39:29.388428",
+            "duration": "0:16:17",
+            "status": "completed",
+            "genome_dir": "gtdbtk",
+            "batchfile": null,
+            "min_af": 0.5,
+            "output_files": {
+                "bac120": "gtdbtk/output/classify/ani_screen/gtdbtk.bac120.ani_summary.tsv"
+            }
+        },
+        {
+            "name": "classify",
+            "output_dir": "gtdbtk/output",
+            "starts_at": "2025-12-10T12:39:29.492536",
+            "ends_at": "2025-12-10T12:39:31.002259",
+            "duration": "0:00:01",
+            "status": "completed",
+            "align_dir": null,
+            "genome_dir": "gtdbtk",
+            "batchfile": null,
+            "scratch_dir": null,
+            "debug_option": false,
+            "full_tree": false,
+            "skip_ani_screen": true,
+            "output_files": {
+                "bac120": [
+                    "gtdbtk/output/classify/gtdbtk.bac120.summary.tsv"
+                ]
+            }
+        }
+    ],
+    "output_dir": "gtdbtk/output",
+    "path": "gtdbtk/output/gtdbtk.json"
+}

@@ -1,0 +1,2 @@
+user_genome	reference_genome	skani_ani	skani_af	reference_taxonomy	other_related_references(genome_id,species_name,radius,ANI,AF)
+samp_7306_VAMB_985	GCF_020521235.1	95.25	0.6942	d__Bacteria;p__Cyanobacteriota;c__Cyanobacteriia;o__Cyanobacteriales;f__Aerosakkonemataceae;g__Microseira;s__Microseira wollei	GCA_003486675.1, s__Microseira sp003486675, 95.0, 90.21, 0.37; GCA_031969655.1, s__Microseira sp003486305, 95.0, 89.78, 0.362

@@ -1,0 +1,18 @@
+[2025-12-10 12:23:12] INFO: GTDB-Tk v2.5.2
+[2025-12-10 12:23:12] INFO: gtdbtk classify_wf --extension fa --genome_dir gtdbtk --out_dir gtdbtk/output --cpus 30
+[2025-12-10 12:23:12] INFO: Using GTDB-Tk reference data version r226: /geomicro/data2/pdenuyl2/databases/gtdbtk/release226
+[2025-12-10 12:23:13] INFO: Loading reference genomes.
+[2025-12-10 12:23:13] INFO: Calculating all vs all ANI with skani v0.3.1.
+[2025-12-10 12:23:15] INFO: Sketching genomes
+[2025-12-10 12:38:52] INFO: Sketches done: 15min 37secs
+[2025-12-10 12:38:52] INFO: Running comparisons
+[2025-12-10 12:39:09] INFO: Comparisons finished, capturing results.
+[2025-12-10 12:39:29] INFO: Summary of results saved to: gtdbtk/output/classify/ani_screen/gtdbtk.bac120.ani_summary.tsv
+[2025-12-10 12:39:29] INFO: 1 genome(s) have been classified using the ANI pre-screening step.
+[2025-12-10 12:39:29] INFO: Done.
+[2025-12-10 12:39:29] INFO: All genomes have been classified by the ANI screening step, Identify and Align steps will be skipped.
+[2025-12-10 12:39:31] INFO: Note that Tk classification mode is insufficient for publication of new taxonomic designations. New designations should be based on one or more de novo trees, an example of which can be produced by Tk in de novo mode.
+[2025-12-10 12:39:31] INFO: Done.
+[2025-12-10 12:39:31] INFO: Removing intermediate files.
+[2025-12-10 12:39:31] INFO: Intermediate files removed.
+[2025-12-10 12:39:31] INFO: Done.

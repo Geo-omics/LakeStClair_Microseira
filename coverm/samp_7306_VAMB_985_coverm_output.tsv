@@ -1,0 +1,3 @@
+Sample	Genome	Relative Abundance (%)	Mean	Trimmed Mean	Covered Bases	Variance	Length	Read Count	Reads per base	RPKM	TPM
+samp_7306_decon_fwd_reads_fastp.fastq.gz	unmapped	99.32633	NA	NA	NA	NA	NA	NA	NA	NA	NA
+samp_7306_decon_fwd_reads_fastp.fastq.gz	samp_7306_VAMB_985	0.67367035	13.005306	12.377884	9565493	56.126583	9567389	1714633	0.1792164	104.52173	1000000

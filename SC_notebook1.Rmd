@@ -199,6 +199,7 @@ bins_oi_gtdb_checkM <- left_join(bins_oi_gtdb, checkM, by = "bin") %>%
 #completness: 98.22
 #contamination: 1.78
 #strain heterogeneity: 0.00
+#A reevaluation of gtdb taxonomy with GTDB release R226 reference database changes taxonomic assignment to Microseira; analysis present in: /geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/LakeStClair_Microseira/gtdbtk/output
 
 ##write.csv(bins_oi_gtdb_checkM, file = "data/notebook1/bins_from_blastn_cyanotoxin_assemblies_results.csv")
 
@@ -326,7 +327,7 @@ comics -i sid
 cp -r /usr/local/lib/GToTree-1.7.05/hmm_sets/ ./
 export GToTree_HMM_dir=hmm_sets/
 export TAXONKIT_DB=ncbi-taxdump
-GToTree -f fasta_files_mediumv3.txt -H Cyanobacteria -t -m genome_to_id_map_mediumv3.tsv -j 10 -o Tree_Output_Mediumv3
+GToTree -f fasta_files_mediumv4.txt -H Cyanobacteria -t -m genome_to_id_map_mediumv4.tsv -j 10 -o Tree_Output_Mediumv4
 
 ```
 
@@ -406,5 +407,4 @@ clinker clinker/figure/*.gb -p clinker/figure/LSC24-BL_sxt_plot_FINAL1.html
 #Download SVG file and edit in Adobe Illustrator
 
 ```
-
 

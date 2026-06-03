@@ -96,3 +96,39 @@ rule prokka_cyanoToxin_contigs:
 rule run_prokka_cyanoToxin_contigs:
     input:
         expand("clinker/contig_compare/contigs_oi/prokka/{contig_name}/{contig_name}.gbk", contig_name = glob_wildcards("clinker/contig_compare/contigs_oi/{contig}.fa",followlinks=True).contig)
+
+#Run CoverM on final MAG of interest
+rule run_final_mag_coverage:
+    input:
+        fwd_reads="/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/coverm/reads/samp_7306_decon_fwd_reads_fastp.fastq.gz",
+        rev_reads="/geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/coverm/reads/samp_7306_decon_rev_reads_fastp.fastq.gz",
+        bin="coverm/samp_7306_VAMB_985.fa"
+    output: "coverm/samp_7306_VAMB_985_coverm_output.tsv"
+    conda: "/geomicro/data2/kiledal/GLAMR/.snakemake/conda/47d560c9940963fc12b9f34c365de985_"
+    resources: cpus=4, mem_mb=150000, time_min=2880
+    shell:
+        """
+        coverm genome \
+            -t {resources.cpus} \
+            -m relative_abundance mean trimmed_mean covered_bases variance length count reads_per_base rpkm tpm \
+            --output-format sparse \
+            --min-covered-fraction 0 \
+            -1 {input.fwd_reads} \
+            -2 {input.rev_reads} \
+            --genome-fasta-files {input.bin} \
+            --output-file {output}
+        """
+
+rule gtdbtk_FINAL_MAGs:
+    input:
+        genomes = "gtdbtk",
+        refs = "/geomicro/data2/pdenuyl2/databases/gtdbtk/release226"
+    output: directory("gtdbtk/output")
+    conda: "config/gtdbtk_2.5.2.yml"
+    resources: cpus=30
+    shell:
+        """
+        export GTDBTK_DATA_PATH={input.refs}
+
+        gtdbtk classify_wf --extension fa --genome_dir {input.genomes} --out_dir {output} --cpus {resources.cpus}
+        """

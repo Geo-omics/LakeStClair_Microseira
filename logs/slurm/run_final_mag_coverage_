@@ -1,0 +1,33 @@
+host: cayman
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=150000, mem_mib=143052, disk_mb=100, disk_mib=96, cpus=4, time_min=2880, heavy_network=0, gpu=0
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Nov 25 14:31:34 2025]
+localrule run_final_mag_coverage:
+    input: /geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/coverm/reads/samp_7306_decon_fwd_reads_fastp.fastq.gz, /geomicro/data2/pdenuyl2/CIGLR_bioinformatics/2025/StClair_manuscript/coverm/reads/samp_7306_decon_rev_reads_fastp.fastq.gz, coverm/samp_7306_VAMB_985.fa
+    output: coverm/samp_7306_VAMB_985_coverm_output.tsv
+    jobid: 0
+    reason: Forced execution
+    resources: mem_mb=150000, mem_mib=143052, disk_mb=100, disk_mib=96, tmpdir=/tmp, cpus=4, time_min=2880, heavy_network=0, gpu=0
+
+Activating conda environment: ../../../../../../../../../../geomicro/data2/kiledal/GLAMR/.snakemake/conda/47d560c9940963fc12b9f34c365de985_
+[2025-11-25T19:31:37Z INFO  coverm] CoverM version 0.6.1
+[2025-11-25T19:31:37Z INFO  coverm] Writing output to file: coverm/samp_7306_VAMB_985_coverm_output.tsv
+[2025-11-25T19:31:37Z INFO  coverm] Using min-covered-fraction 0%
+[2025-11-25T19:31:37Z INFO  coverm] Using trim-min 5%
+[2025-11-25T19:31:37Z INFO  coverm] Using trim-max 95%
+[2025-11-25T19:31:37Z INFO  bird_tool_utils::external_command_checker] Found minimap2 version 2.26-r1175 
+[2025-11-25T19:31:37Z INFO  bird_tool_utils::external_command_checker] Found samtools version 1.15.1 
+[2025-11-25T19:31:37Z INFO  coverm] Profiling 1 genomes
+[2025-11-25T19:31:37Z INFO  coverm] Generating concatenated reference FASTA file of 1 genomes ..
+[2025-11-25T19:31:38Z INFO  coverm] Not pre-generating minimap2 index
+[2025-11-25T20:10:04Z INFO  coverm::genome] In sample 'samp_7306_decon_fwd_reads_fastp.fastq.gz', found 1714633 reads mapped out of 254521076 total (0.67%)
+[Tue Nov 25 15:10:10 2025]
+Finished jobid: 0 (Rule: run_final_mag_coverage)
+1 of 1 steps (100%) done
+Storing output in storage.
