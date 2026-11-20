@@ -7,7 +7,7 @@
 - Snakemake file can be called through R Markdown code, or command line
 
 ### Data Availability:
-Raw sequence files associated with this study can be accessed at the National Center for Biotechnology Information (NCBI) Sequence Read Archive (SRA) under BioProject PRJNA1474428. 
+Raw sequence files and metagenome assembled genomes (MAGs) associated with this study can be accessed at the National Center for Biotechnology Information (NCBI) Sequence Read Archive (SRA) and GenBank under BioProject PRJNA1474428. 
 
 ### Notebooks:
 
